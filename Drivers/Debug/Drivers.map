@@ -1,0 +1,1070 @@
+Archive member included because of file (symbol)
+
+c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                              ./MCAL/Timers/Timer1/T1_Program.o (__mulsi3)
+c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+                              ./MCAL/Timers/Timer0/T0_Program.o (__divmodhi4)
+c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                              ./HAL/Lcd/Lcd_Program.o (__udivmodsi4)
+c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+                              ./MCAL/Timers/Timer1/T1_Program.o (__divmodsi4)
+c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                              c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o (exit)
+c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                              ./HAL/Seven_Segement/SevenSeg_Program.o (__do_copy_data)
+c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                              ./MCAL/Timers/Timer1/T1_Program.o (__do_clear_bss)
+c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                              ./HAL/StepperMotor/Stepper_Program.o (__fixunssfsi)
+c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                              c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__subsf3)
+c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                              ./HAL/StepperMotor/Stepper_Program.o (__mulsf3)
+c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+                              ./HAL/StepperMotor/Stepper_Program.o (__divsf3)
+c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+                              ./HAL/StepperMotor/Stepper_Program.o (__gtsf2)
+c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                              c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__gesf2)
+c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+                              ./HAL/StepperMotor/Stepper_Program.o (__ltsf2)
+c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                              c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__fixsfsi)
+c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+                              c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__thenan_sf)
+c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+                              ./HAL/StepperMotor/Stepper_Program.o (__floatunsisf)
+c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                              c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o) (__udivmodhi4)
+c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                              c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__prologue_saves__)
+c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                              c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__epilogue_restores__)
+c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+                              c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o) (__clzsi2)
+c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                              c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__pack_f)
+c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                              c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__unpack_f)
+c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                              c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o) (__fpcmp_parts_f)
+c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+                              c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o) (__clz_tab)
+
+Allocating common symbols
+Common symbol       size              file
+
+EXTI2_ISR           0x2               ./MCAL/EXTI/EXTI_Program.o
+EXTI1_ISR           0x2               ./MCAL/EXTI/EXTI_Program.o
+EXTI0_ISR           0x2               ./MCAL/EXTI/EXTI_Program.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+LOAD ./MCAL/UART/UART_Program.o
+LOAD ./MCAL/Timers/Timer1/T1_Program.o
+LOAD ./MCAL/Timers/Timer0/T0_Program.o
+LOAD ./MCAL/SPI/SPI_Program.o
+LOAD ./MCAL/GIE/GIE_Program.o
+LOAD ./MCAL/EXTI/EXTI_Program.o
+LOAD ./MCAL/DIO/DIO_Program.o
+LOAD ./MCAL/ADC/ADC_Program.o
+LOAD ./HAL/Switch/Switch_Program.o
+LOAD ./HAL/StepperMotor/Stepper_Program.o
+LOAD ./HAL/Seven_Segement/SevenSeg_Program.o
+LOAD ./HAL/ServoMotor/Servo_Program.o
+LOAD ./HAL/Led/Led_Programe.o
+LOAD ./HAL/Lcd/Lcd_Program.o
+LOAD ./HAL/LM35/LM35_Program.o
+LOAD ./HAL/LDR/LDR_Program.o
+LOAD ./HAL/Keypad/Keypad_Program.o
+LOAD ./HAL/GasSensor/GasSensor_Program.o
+LOAD ./HAL/DCMotor/DCMotor_Program.o
+LOAD ./HAL/Buzzer/Buzzer_Program.o
+LOAD ./HAL/BluetoothModule/BluetoothModule_Program.o
+LOAD ./main.o
+LOAD c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
+LOAD c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x4cc6
+ *(.vectors)
+ .vectors       0x00000000       0x54 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x00000054                . = ALIGN (0x2)
+                0x00000054                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000054        0x0 linker stubs
+ *(.trampolines*)
+                0x00000054                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000054                __ctors_start = .
+ *(.ctors)
+                0x00000054                __ctors_end = .
+                0x00000054                __dtors_start = .
+ *(.dtors)
+                0x00000054                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000054        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000054                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000054        0xc c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000060       0x16 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                0x00000060                __do_copy_data
+ .init4         0x00000076       0x10 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x00000076                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000086        0x8 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init9)
+ *(.text)
+ .text          0x0000008e        0x4 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x0000008e                __vector_12
+                0x0000008e                __bad_interrupt
+                0x0000008e                __vector_13
+                0x0000008e                __vector_17
+                0x0000008e                __vector_19
+                0x0000008e                __vector_5
+                0x0000008e                __vector_4
+                0x0000008e                __vector_15
+                0x0000008e                __vector_14
+                0x0000008e                __vector_18
+                0x0000008e                __vector_20
+ .text          0x00000092        0x0 ./MCAL/UART/UART_Program.o
+ .text          0x00000092        0x0 ./MCAL/Timers/Timer1/T1_Program.o
+ .text          0x00000092        0x0 ./MCAL/Timers/Timer0/T0_Program.o
+ .text          0x00000092        0x0 ./MCAL/SPI/SPI_Program.o
+ .text          0x00000092        0x0 ./MCAL/GIE/GIE_Program.o
+ .text          0x00000092        0x0 ./MCAL/EXTI/EXTI_Program.o
+ .text          0x00000092        0x0 ./MCAL/DIO/DIO_Program.o
+ .text          0x00000092        0x0 ./MCAL/ADC/ADC_Program.o
+ .text          0x00000092        0x0 ./HAL/Switch/Switch_Program.o
+ .text          0x00000092        0x0 ./HAL/StepperMotor/Stepper_Program.o
+ .text          0x00000092        0x0 ./HAL/Seven_Segement/SevenSeg_Program.o
+ .text          0x00000092        0x0 ./HAL/ServoMotor/Servo_Program.o
+ .text          0x00000092        0x0 ./HAL/Led/Led_Programe.o
+ .text          0x00000092        0x0 ./HAL/Lcd/Lcd_Program.o
+ .text          0x00000092        0x0 ./HAL/LM35/LM35_Program.o
+ .text          0x00000092        0x0 ./HAL/LDR/LDR_Program.o
+ .text          0x00000092        0x0 ./HAL/Keypad/Keypad_Program.o
+ .text          0x00000092        0x0 ./HAL/GasSensor/GasSensor_Program.o
+ .text          0x00000092        0x0 ./HAL/DCMotor/DCMotor_Program.o
+ .text          0x00000092        0x0 ./HAL/Buzzer/Buzzer_Program.o
+ .text          0x00000092        0x0 ./HAL/BluetoothModule/BluetoothModule_Program.o
+ .text          0x00000092        0x0 ./main.o
+ .text          0x00000092        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .text          0x00000092        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+ .text          0x00000092        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00000092        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+ .text          0x00000092        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text          0x00000092        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000092        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000092       0x58 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                0x00000092                __fixunssfsi
+ .text          0x000000ea      0x354 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                0x00000382                __subsf3
+                0x000003e4                __addsf3
+ .text          0x0000043e      0x1f4 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                0x0000043e                __mulsf3
+ .text          0x00000632      0x158 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+                0x00000632                __divsf3
+ .text          0x0000078a       0x60 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+                0x0000078a                __gtsf2
+ .text          0x000007ea       0x60 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                0x000007ea                __gesf2
+ .text          0x0000084a       0x60 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+                0x0000084a                __ltsf2
+ .text          0x000008aa       0xa8 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                0x000008aa                __fixsfsi
+ .text          0x00000952        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .text          0x00000952       0xf2 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+                0x00000952                __floatunsisf
+ .text          0x00000a44        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x00000a44        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .text          0x00000a44        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .text          0x00000a44       0x9e c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+                0x00000a44                __clzsi2
+ .text          0x00000ae2      0x1aa c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                0x00000ae2                __pack_f
+ .text          0x00000c8c       0xf0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                0x00000c8c                __unpack_f
+ .text          0x00000d7c       0xb2 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                0x00000d7c                __fpcmp_parts_f
+ .text          0x00000e2e        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+                0x00000e2e                . = ALIGN (0x2)
+ *(.text.*)
+ .text.UART_voidInit
+                0x00000e2e       0xd8 ./MCAL/UART/UART_Program.o
+                0x00000e2e                UART_voidInit
+ .text.UART_voidSendData
+                0x00000f06       0x50 ./MCAL/UART/UART_Program.o
+                0x00000f06                UART_voidSendData
+ .text.UART_u8RecieveData
+                0x00000f56       0x68 ./MCAL/UART/UART_Program.o
+                0x00000f56                UART_u8RecieveData
+ .text.T1_voidNormalModeInit
+                0x00000fbe       0xb2 ./MCAL/Timers/Timer1/T1_Program.o
+                0x00000fbe                T1_voidNormalModeInit
+ .text.T1_voidCallBackFuncNormalMode
+                0x00001070       0x2c ./MCAL/Timers/Timer1/T1_Program.o
+                0x00001070                T1_voidCallBackFuncNormalMode
+ .text.__vector_9
+                0x0000109c       0x66 ./MCAL/Timers/Timer1/T1_Program.o
+                0x0000109c                __vector_9
+ .text.T1_voidClearTimerModeInit
+                0x00001102      0x3c2 ./MCAL/Timers/Timer1/T1_Program.o
+                0x00001102                T1_voidClearTimerModeInit
+ .text.T1_voidCallBackFuncCTCModeA
+                0x000014c4       0x2c ./MCAL/Timers/Timer1/T1_Program.o
+                0x000014c4                T1_voidCallBackFuncCTCModeA
+ .text.__vector_7
+                0x000014f0       0x66 ./MCAL/Timers/Timer1/T1_Program.o
+                0x000014f0                __vector_7
+ .text.T1_voidCallBackFuncCTCModeB
+                0x00001556       0x2c ./MCAL/Timers/Timer1/T1_Program.o
+                0x00001556                T1_voidCallBackFuncCTCModeB
+ .text.__vector_8
+                0x00001582       0x66 ./MCAL/Timers/Timer1/T1_Program.o
+                0x00001582                __vector_8
+ .text.T1_voidFastPWM
+                0x000015e8      0x336 ./MCAL/Timers/Timer1/T1_Program.o
+                0x000015e8                T1_voidFastPWM
+ .text.T1_voidFastPWMServo
+                0x0000191e       0x90 ./MCAL/Timers/Timer1/T1_Program.o
+                0x0000191e                T1_voidFastPWMServo
+ .text.T1_voidICUInit
+                0x000019ae       0x8e ./MCAL/Timers/Timer1/T1_Program.o
+                0x000019ae                T1_voidICUInit
+ .text.T1_voidCallBackFuncICUMode
+                0x00001a3c       0x2c ./MCAL/Timers/Timer1/T1_Program.o
+                0x00001a3c                T1_voidCallBackFuncICUMode
+ .text.__vector_6
+                0x00001a68       0x66 ./MCAL/Timers/Timer1/T1_Program.o
+                0x00001a68                __vector_6
+ .text.T0_voidNormalModeInit
+                0x00001ace       0x90 ./MCAL/Timers/Timer0/T0_Program.o
+                0x00001ace                T0_voidNormalModeInit
+ .text.T0_voidCallBackFuncNormalMode
+                0x00001b5e       0x2c ./MCAL/Timers/Timer0/T0_Program.o
+                0x00001b5e                T0_voidCallBackFuncNormalMode
+ .text.__vector_11
+                0x00001b8a       0x66 ./MCAL/Timers/Timer0/T0_Program.o
+                0x00001b8a                __vector_11
+ .text.T0_voidClearTimerModeInit
+                0x00001bf0      0x122 ./MCAL/Timers/Timer0/T0_Program.o
+                0x00001bf0                T0_voidClearTimerModeInit
+ .text.T0_voidCallBackFuncClearTimerMode
+                0x00001d12       0x2c ./MCAL/Timers/Timer0/T0_Program.o
+                0x00001d12                T0_voidCallBackFuncClearTimerMode
+ .text.__vector_10
+                0x00001d3e       0x66 ./MCAL/Timers/Timer0/T0_Program.o
+                0x00001d3e                __vector_10
+ .text.T0_voidPWMModeInit
+                0x00001da4      0x250 ./MCAL/Timers/Timer0/T0_Program.o
+                0x00001da4                T0_voidPWMModeInit
+ .text.SPI_voidinit
+                0x00001ff4       0x8c ./MCAL/SPI/SPI_Program.o
+                0x00001ff4                SPI_voidinit
+ .text.SPI_u8sendReceiveByte
+                0x00002080       0x2c ./MCAL/SPI/SPI_Program.o
+                0x00002080                SPI_u8sendReceiveByte
+ .text.SPI_voidsendString
+                0x000020ac       0x58 ./MCAL/SPI/SPI_Program.o
+                0x000020ac                SPI_voidsendString
+ .text.SPI_voidreceiveString
+                0x00002104       0x8a ./MCAL/SPI/SPI_Program.o
+                0x00002104                SPI_voidreceiveString
+ .text.GIE_voidEnable
+                0x0000218e       0x1c ./MCAL/GIE/GIE_Program.o
+                0x0000218e                GIE_voidEnable
+ .text.GIE_voidDisable
+                0x000021aa       0x1c ./MCAL/GIE/GIE_Program.o
+                0x000021aa                GIE_voidDisable
+ .text.EXTI_voidInitINT0
+                0x000021c6       0xb0 ./MCAL/EXTI/EXTI_Program.o
+                0x000021c6                EXTI_voidInitINT0
+ .text.EXTI_voidInitINT1
+                0x00002276       0xb0 ./MCAL/EXTI/EXTI_Program.o
+                0x00002276                EXTI_voidInitINT1
+ .text.EXTI_voidInitINT2
+                0x00002326       0x4c ./MCAL/EXTI/EXTI_Program.o
+                0x00002326                EXTI_voidInitINT2
+ .text.EXTI0_CallBack
+                0x00002372       0x24 ./MCAL/EXTI/EXTI_Program.o
+                0x00002372                EXTI0_CallBack
+ .text.__vector_1
+                0x00002396       0x5a ./MCAL/EXTI/EXTI_Program.o
+                0x00002396                __vector_1
+ .text.EXTI1_CallBack
+                0x000023f0       0x24 ./MCAL/EXTI/EXTI_Program.o
+                0x000023f0                EXTI1_CallBack
+ .text.__vector_2
+                0x00002414       0x5a ./MCAL/EXTI/EXTI_Program.o
+                0x00002414                __vector_2
+ .text.EXTI2_CallBack
+                0x0000246e       0x24 ./MCAL/EXTI/EXTI_Program.o
+                0x0000246e                EXTI2_CallBack
+ .text.__vector_3
+                0x00002492       0x5a ./MCAL/EXTI/EXTI_Program.o
+                0x00002492                __vector_3
+ .text.DIO_voidSetPinDir
+                0x000024ec      0x21c ./MCAL/DIO/DIO_Program.o
+                0x000024ec                DIO_voidSetPinDir
+ .text.DIO_voidSetPinValue
+                0x00002708      0x21c ./MCAL/DIO/DIO_Program.o
+                0x00002708                DIO_voidSetPinValue
+ .text.DIO_u8ReadPinValue
+                0x00002924      0x2ec ./MCAL/DIO/DIO_Program.o
+                0x00002924                DIO_u8ReadPinValue
+ .text.DIO_voidSetPortDir
+                0x00002c10       0x90 ./MCAL/DIO/DIO_Program.o
+                0x00002c10                DIO_voidSetPortDir
+ .text.DIO_voidSetPortValue
+                0x00002ca0       0x90 ./MCAL/DIO/DIO_Program.o
+                0x00002ca0                DIO_voidSetPortValue
+ .text.DIO_U8ReadPortValue
+                0x00002d30       0x96 ./MCAL/DIO/DIO_Program.o
+                0x00002d30                DIO_U8ReadPortValue
+ .text.DIO_voidControlPullupPin
+                0x00002dc6       0x32 ./MCAL/DIO/DIO_Program.o
+                0x00002dc6                DIO_voidControlPullupPin
+ .text.ADC_voidInitPolling
+                0x00002df8       0xd6 ./MCAL/ADC/ADC_Program.o
+                0x00002df8                ADC_voidInitPolling
+ .text.ADC_voidReadResultPolling
+                0x00002ece       0x84 ./MCAL/ADC/ADC_Program.o
+                0x00002ece                ADC_voidReadResultPolling
+ .text.ADC_voidInitInterrupt
+                0x00002f52       0xde ./MCAL/ADC/ADC_Program.o
+                0x00002f52                ADC_voidInitInterrupt
+ .text.ADC_voidReadResultInterrupt
+                0x00003030       0x46 ./MCAL/ADC/ADC_Program.o
+                0x00003030                ADC_voidReadResultInterrupt
+ .text.__vector_16
+                0x00003076       0x40 ./MCAL/ADC/ADC_Program.o
+                0x00003076                __vector_16
+ .text.SWITCH_voidInit
+                0x000030b6       0x2c ./HAL/Switch/Switch_Program.o
+                0x000030b6                SWITCH_voidInit
+ .text.SWITCH_u8GetValue
+                0x000030e2       0x20 ./HAL/Switch/Switch_Program.o
+                0x000030e2                SWITCH_u8GetValue
+ .text.STEPPER_voidInit
+                0x00003102       0x36 ./HAL/StepperMotor/Stepper_Program.o
+                0x00003102                STEPPER_voidInit
+ .text.STEPPER_voidCW
+                0x00003138      0x4f0 ./HAL/StepperMotor/Stepper_Program.o
+                0x00003138                STEPPER_voidCW
+ .text.STEPPER_voidACW
+                0x00003628      0x4cc ./HAL/StepperMotor/Stepper_Program.o
+                0x00003628                STEPPER_voidACW
+ .text.SEVSEG_voidInit
+                0x00003af4       0x2e ./HAL/Seven_Segement/SevenSeg_Program.o
+                0x00003af4                SEVSEG_voidInit
+ .text.SEVSEG_voidSetNum
+                0x00003b22       0x9e ./HAL/Seven_Segement/SevenSeg_Program.o
+                0x00003b22                SEVSEG_voidSetNum
+ .text.SEVSEG_voidOff
+                0x00003bc0       0x1e ./HAL/Seven_Segement/SevenSeg_Program.o
+                0x00003bc0                SEVSEG_voidOff
+ .text.LED_voidInit
+                0x00003bde       0x22 ./HAL/Led/Led_Programe.o
+                0x00003bde                LED_voidInit
+ .text.LED_voidOn
+                0x00003c00       0x22 ./HAL/Led/Led_Programe.o
+                0x00003c00                LED_voidOn
+ .text.LED_voidOff
+                0x00003c22       0x22 ./HAL/Led/Led_Programe.o
+                0x00003c22                LED_voidOff
+ .text.LED_voidToggle
+                0x00003c44       0x36 ./HAL/Led/Led_Programe.o
+                0x00003c44                LED_voidToggle
+ .text.LCD_voidSendCommand
+                0x00003c7a       0x44 ./HAL/Lcd/Lcd_Program.o
+                0x00003c7a                LCD_voidSendCommand
+ .text.LCD_voidSendData
+                0x00003cbe       0x44 ./HAL/Lcd/Lcd_Program.o
+                0x00003cbe                LCD_voidSendData
+ .text.LCD_voidInit
+                0x00003d02      0x3f4 ./HAL/Lcd/Lcd_Program.o
+                0x00003d02                LCD_voidInit
+ .text.LCD_voidSendString
+                0x000040f6       0x52 ./HAL/Lcd/Lcd_Program.o
+                0x000040f6                LCD_voidSendString
+ .text.LCD_voidSetPos
+                0x00004148       0x3c ./HAL/Lcd/Lcd_Program.o
+                0x00004148                LCD_voidSetPos
+ .text.LCD_voidSpecialCharacter
+                0x00004184       0x80 ./HAL/Lcd/Lcd_Program.o
+                0x00004184                LCD_voidSpecialCharacter
+ .text.LCD_voidClear
+                0x00004204      0x110 ./HAL/Lcd/Lcd_Program.o
+                0x00004204                LCD_voidClear
+ .text.LCD_voidSendNumber
+                0x00004314      0x15a ./HAL/Lcd/Lcd_Program.o
+                0x00004314                LCD_voidSendNumber
+ .text.LM35_voidInit
+                0x0000446e      0x126 ./HAL/LM35/LM35_Program.o
+                0x0000446e                LM35_voidInit
+ .text.LM35_voidRead
+                0x00004594       0xa2 ./HAL/LM35/LM35_Program.o
+                0x00004594                LM35_voidRead
+ .text.LDR_voidInit
+                0x00004636       0x34 ./HAL/LDR/LDR_Program.o
+                0x00004636                LDR_voidInit
+ .text.LDR_voidRead
+                0x0000466a       0x60 ./HAL/LDR/LDR_Program.o
+                0x0000466a                LDR_voidRead
+ .text.KEYPAD_voidInit
+                0x000046ca       0x1e ./HAL/Keypad/Keypad_Program.o
+                0x000046ca                KEYPAD_voidInit
+ .text.KEYPAD_u8GetValue1
+                0x000046e8       0x98 ./HAL/Keypad/Keypad_Program.o
+                0x000046e8                KEYPAD_u8GetValue1
+ .text.KEYPAD_charGetValue2
+                0x00004780       0xa6 ./HAL/Keypad/Keypad_Program.o
+                0x00004780                KEYPAD_charGetValue2
+ .text.GasSensor_voidAnalogInit
+                0x00004826       0x34 ./HAL/GasSensor/GasSensor_Program.o
+                0x00004826                GasSensor_voidAnalogInit
+ .text.GasSensor_voidDigitalInit
+                0x0000485a       0x18 ./HAL/GasSensor/GasSensor_Program.o
+                0x0000485a                GasSensor_voidDigitalInit
+ .text.GasSensor_f32ReadAnalog
+                0x00004872       0x18 ./HAL/GasSensor/GasSensor_Program.o
+                0x00004872                GasSensor_f32ReadAnalog
+ .text.GasSensor_u8DigitalState
+                0x0000488a       0x16 ./HAL/GasSensor/GasSensor_Program.o
+                0x0000488a                GasSensor_u8DigitalState
+ .text.DCMotor_voidInit
+                0x000048a0       0x36 ./HAL/DCMotor/DCMotor_Program.o
+                0x000048a0                DCMotor_voidInit
+ .text.DCMotor_voidOnMaxSpeed
+                0x000048d6       0x72 ./HAL/DCMotor/DCMotor_Program.o
+                0x000048d6                DCMotor_voidOnMaxSpeed
+ .text.DCMotor_voidOff
+                0x00004948       0x36 ./HAL/DCMotor/DCMotor_Program.o
+                0x00004948                DCMotor_voidOff
+ .text.BUZZER_voidInit
+                0x0000497e       0x18 ./HAL/Buzzer/Buzzer_Program.o
+                0x0000497e                BUZZER_voidInit
+ .text.BUZZER_voidOn
+                0x00004996       0x18 ./HAL/Buzzer/Buzzer_Program.o
+                0x00004996                BUZZER_voidOn
+ .text.BUZZER_voidOff
+                0x000049ae       0x18 ./HAL/Buzzer/Buzzer_Program.o
+                0x000049ae                BUZZER_voidOff
+ .text.BUZZER_voidToggle
+                0x000049c6       0x24 ./HAL/Buzzer/Buzzer_Program.o
+                0x000049c6                BUZZER_voidToggle
+ .text.BluetoothModule_voidInit
+                0x000049ea       0x2e ./HAL/BluetoothModule/BluetoothModule_Program.o
+                0x000049ea                BluetoothModule_voidInit
+ .text.BluetoothModule_u8RecieveData
+                0x00004a18       0x12 ./HAL/BluetoothModule/BluetoothModule_Program.o
+                0x00004a18                BluetoothModule_u8RecieveData
+ .text.main     0x00004a2a      0x124 ./main.o
+                0x00004a2a                main
+ .text.libgcc   0x00004b4e       0x3e c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                0x00004b4e                __mulsi3
+ .text.libgcc   0x00004b8c       0x26 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+                0x00004b8c                __divmodhi4
+                0x00004b8c                _div
+ .text.libgcc   0x00004bb2       0x44 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                0x00004bb2                __udivmodsi4
+ .text.libgcc   0x00004bf6       0x36 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+                0x00004bf6                __divmodsi4
+ .text.libgcc   0x00004c2c        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00004c2c        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00004c2c        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00004c2c       0x28 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                0x00004c2c                __udivmodhi4
+ .text.libgcc   0x00004c54       0x38 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                0x00004c54                __prologue_saves__
+ .text.libgcc   0x00004c8c       0x36 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                0x00004c8c                __epilogue_restores__
+                0x00004cc2                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00004cc2        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x00004cc2                exit
+                0x00004cc2                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00004cc2        0x4 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00004cc6                _etext = .
+
+.data           0x00800060      0x132 load address 0x00004cc6
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .data          0x00800060        0x0 ./MCAL/UART/UART_Program.o
+ .data          0x00800060        0x0 ./MCAL/Timers/Timer1/T1_Program.o
+ .data          0x00800060        0x0 ./MCAL/Timers/Timer0/T0_Program.o
+ .data          0x00800060        0x0 ./MCAL/SPI/SPI_Program.o
+ .data          0x00800060        0x0 ./MCAL/GIE/GIE_Program.o
+ .data          0x00800060        0x0 ./MCAL/EXTI/EXTI_Program.o
+ .data          0x00800060        0x0 ./MCAL/DIO/DIO_Program.o
+ .data          0x00800060        0x0 ./MCAL/ADC/ADC_Program.o
+ .data          0x00800060        0x0 ./HAL/Switch/Switch_Program.o
+ .data          0x00800060        0x0 ./HAL/StepperMotor/Stepper_Program.o
+ .data          0x00800060        0x0 ./HAL/Seven_Segement/SevenSeg_Program.o
+ .data          0x00800060        0x0 ./HAL/ServoMotor/Servo_Program.o
+ .data          0x00800060        0x0 ./HAL/Led/Led_Programe.o
+ .data          0x00800060        0x0 ./HAL/Lcd/Lcd_Program.o
+ .data          0x00800060        0x0 ./HAL/LM35/LM35_Program.o
+ .data          0x00800060        0x0 ./HAL/LDR/LDR_Program.o
+ .data          0x00800060        0x0 ./HAL/Keypad/Keypad_Program.o
+ .data          0x00800060        0x0 ./HAL/GasSensor/GasSensor_Program.o
+ .data          0x00800060        0x0 ./HAL/DCMotor/DCMotor_Program.o
+ .data          0x00800060        0x0 ./HAL/Buzzer/Buzzer_Program.o
+ .data          0x00800060        0x0 ./HAL/BluetoothModule/BluetoothModule_Program.o
+ .data          0x00800060        0x0 ./main.o
+ .data          0x00800060        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .data          0x00800060        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+ .data          0x00800060        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00800060        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+ .data          0x00800060        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x00800060        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800060        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800060        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .data          0x00800060        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .data          0x00800060        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .data          0x00800060        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .data          0x00800060        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .data          0x00800060        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .data          0x00800060        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .data          0x00800060        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .data          0x00800060        0x8 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+                0x00800060                __thenan_sf
+ .data          0x00800068        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .data          0x00800068        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00800068        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .data          0x00800068        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .data          0x00800068        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .data          0x00800068        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .data          0x00800068        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .data          0x00800068        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .data          0x00800068      0x100 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+                0x00800068                __clz_tab
+ *(.data*)
+ .data.SevSegValue
+                0x00800168        0xa ./HAL/Seven_Segement/SevenSeg_Program.o
+                0x00800168                SevSegValue
+ .data.keypad_value1
+                0x00800172       0x10 ./HAL/Keypad/Keypad_Program.o
+                0x00800172                keypad_value1
+ .data.keypad_value2
+                0x00800182       0x10 ./HAL/Keypad/Keypad_Program.o
+                0x00800182                keypad_value2
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800192                . = ALIGN (0x2)
+                0x00800192                _edata = .
+                0x00800192                PROVIDE (__data_end, .)
+
+.bss            0x00800192       0x14
+                0x00800192                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .bss           0x00800192        0x0 ./MCAL/UART/UART_Program.o
+ .bss           0x00800192        0x0 ./MCAL/Timers/Timer1/T1_Program.o
+ .bss           0x00800192        0x0 ./MCAL/Timers/Timer0/T0_Program.o
+ .bss           0x00800192        0x0 ./MCAL/SPI/SPI_Program.o
+ .bss           0x00800192        0x0 ./MCAL/GIE/GIE_Program.o
+ .bss           0x00800192        0x0 ./MCAL/EXTI/EXTI_Program.o
+ .bss           0x00800192        0x0 ./MCAL/DIO/DIO_Program.o
+ .bss           0x00800192        0x0 ./MCAL/ADC/ADC_Program.o
+ .bss           0x00800192        0x0 ./HAL/Switch/Switch_Program.o
+ .bss           0x00800192        0x0 ./HAL/StepperMotor/Stepper_Program.o
+ .bss           0x00800192        0x0 ./HAL/Seven_Segement/SevenSeg_Program.o
+ .bss           0x00800192        0x0 ./HAL/ServoMotor/Servo_Program.o
+ .bss           0x00800192        0x0 ./HAL/Led/Led_Programe.o
+ .bss           0x00800192        0x0 ./HAL/Lcd/Lcd_Program.o
+ .bss           0x00800192        0x0 ./HAL/LM35/LM35_Program.o
+ .bss           0x00800192        0x0 ./HAL/LDR/LDR_Program.o
+ .bss           0x00800192        0x0 ./HAL/Keypad/Keypad_Program.o
+ .bss           0x00800192        0x0 ./HAL/GasSensor/GasSensor_Program.o
+ .bss           0x00800192        0x0 ./HAL/DCMotor/DCMotor_Program.o
+ .bss           0x00800192        0x0 ./HAL/Buzzer/Buzzer_Program.o
+ .bss           0x00800192        0x0 ./HAL/BluetoothModule/BluetoothModule_Program.o
+ .bss           0x00800192        0x0 ./main.o
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+ *(.bss*)
+ .bss.GlobalICUPf
+                0x00800192        0x2 ./MCAL/Timers/Timer1/T1_Program.o
+ .bss.GlobalOVPf
+                0x00800194        0x2 ./MCAL/Timers/Timer1/T1_Program.o
+ .bss.GlobalCTCAPf
+                0x00800196        0x2 ./MCAL/Timers/Timer1/T1_Program.o
+ .bss.GlobalCTCBPf
+                0x00800198        0x2 ./MCAL/Timers/Timer1/T1_Program.o
+ .bss.GlobalOVPF
+                0x0080019a        0x2 ./MCAL/Timers/Timer0/T0_Program.o
+ .bss.GlobalCTCPF
+                0x0080019c        0x2 ./MCAL/Timers/Timer0/T0_Program.o
+ .bss.InterruptData
+                0x0080019e        0x2 ./MCAL/ADC/ADC_Program.o
+ *(COMMON)
+ COMMON         0x008001a0        0x6 ./MCAL/EXTI/EXTI_Program.o
+                0x008001a0                EXTI2_ISR
+                0x008001a2                EXTI1_ISR
+                0x008001a4                EXTI0_ISR
+                0x008001a6                PROVIDE (__bss_end, .)
+                0x00004cc6                __data_load_start = LOADADDR (.data)
+                0x00004df8                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008001a6        0x0
+                0x008001a6                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008001a6                PROVIDE (__noinit_end, .)
+                0x008001a6                _end = .
+                0x008001a6                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000     0x7284
+ *(.stab)
+ .stab          0x00000000      0x450 ./MCAL/UART/UART_Program.o
+ .stab          0x00000450      0xe1c ./MCAL/Timers/Timer1/T1_Program.o
+                                0xe28 (size before relaxing)
+ .stab          0x0000126c      0x750 ./MCAL/Timers/Timer0/T0_Program.o
+                                0x75c (size before relaxing)
+ .stab          0x000019bc      0x45c ./MCAL/SPI/SPI_Program.o
+                                0x468 (size before relaxing)
+ .stab          0x00001e18      0x2a0 ./MCAL/GIE/GIE_Program.o
+                                0x2ac (size before relaxing)
+ .stab          0x000020b8      0x5c4 ./MCAL/EXTI/EXTI_Program.o
+                                0x5d0 (size before relaxing)
+ .stab          0x0000267c      0x72c ./MCAL/DIO/DIO_Program.o
+                                0x738 (size before relaxing)
+ .stab          0x00002da8      0x57c ./MCAL/ADC/ADC_Program.o
+                                0x588 (size before relaxing)
+ .stab          0x00003324      0x30c ./HAL/Switch/Switch_Program.o
+                                0x318 (size before relaxing)
+ .stab          0x00003630      0xccc ./HAL/StepperMotor/Stepper_Program.o
+                                0xcd8 (size before relaxing)
+ .stab          0x000042fc      0x3c0 ./HAL/Seven_Segement/SevenSeg_Program.o
+                                0x3cc (size before relaxing)
+ .stab          0x000046bc       0xd8 ./HAL/ServoMotor/Servo_Program.o
+                                 0xe4 (size before relaxing)
+ .stab          0x00004794      0x3cc ./HAL/Led/Led_Programe.o
+                                0x564 (size before relaxing)
+ .stab          0x00004b60      0xae0 ./HAL/Lcd/Lcd_Program.o
+                                0xc78 (size before relaxing)
+ .stab          0x00005640      0x45c ./HAL/LM35/LM35_Program.o
+                                0x5f4 (size before relaxing)
+ .stab          0x00005a9c      0x378 ./HAL/LDR/LDR_Program.o
+                                0x384 (size before relaxing)
+ .stab          0x00005e14      0x450 ./HAL/Keypad/Keypad_Program.o
+                                0x45c (size before relaxing)
+ .stab          0x00006264      0x3c0 ./HAL/GasSensor/GasSensor_Program.o
+                                0x3cc (size before relaxing)
+ .stab          0x00006624      0x3c0 ./HAL/DCMotor/DCMotor_Program.o
+                                0x3cc (size before relaxing)
+ .stab          0x000069e4      0x36c ./HAL/Buzzer/Buzzer_Program.o
+                                0x504 (size before relaxing)
+ .stab          0x00006d50      0x2b8 ./HAL/BluetoothModule/BluetoothModule_Program.o
+                                0x2c4 (size before relaxing)
+ .stab          0x00007008      0x27c ./main.o
+                                0x5ac (size before relaxing)
+
+.stabstr        0x00000000     0x3492
+ *(.stabstr)
+ .stabstr       0x00000000     0x3492 ./MCAL/UART/UART_Program.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x1a0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_aranges
+                0x00000020       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_aranges
+                0x00000040       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_aranges
+                0x00000060       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_aranges
+                0x00000080       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_aranges
+                0x000000a0       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_aranges
+                0x000000c0       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_aranges
+                0x000000e0       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_aranges
+                0x00000100       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_aranges
+                0x00000120       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x00000140       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_aranges
+                0x00000160       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_aranges
+                0x00000180       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_pubnames
+                0x00000000      0x1f2
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x23 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_pubnames
+                0x00000023       0x2c c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_pubnames
+                0x0000004f       0x1f c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_pubnames
+                0x0000006e       0x1f c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_pubnames
+                0x0000008d       0x1e c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_pubnames
+                0x000000ab       0x1e c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_pubnames
+                0x000000c9       0x1e c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_pubnames
+                0x000000e7       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_pubnames
+                0x00000107       0x22 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_pubnames
+                0x00000129       0x24 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_pubnames
+                0x0000014d       0x1f c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_pubnames
+                0x0000016c       0x1f c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_pubnames
+                0x0000018b       0x21 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_pubnames
+                0x000001ac       0x26 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_pubnames
+                0x000001d2       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+
+.debug_info     0x00000000     0x240b
+ *(.debug_info)
+ .debug_info    0x00000000       0xb1 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_info    0x000000b1      0x47a c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_info    0x0000052b      0x485 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_info    0x000009b0      0x3fc c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_info    0x00000dac      0x27f c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_info    0x0000102b      0x27f c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_info    0x000012aa      0x27f c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_info    0x00001529      0x2b0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_info    0x000017d9      0x12c c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_info    0x00001905      0x206 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_info    0x00001b0b      0x117 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_info    0x00001c22      0x2df c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_info    0x00001f01      0x251 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_info    0x00002152      0x210 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_info    0x00002362       0xa9 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000     0x1386
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x5d c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_abbrev  0x0000005d      0x1ea c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_abbrev  0x00000247      0x21b c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_abbrev  0x00000462      0x216 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_abbrev  0x00000678      0x15a c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_abbrev  0x000007d2      0x15a c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_abbrev  0x0000092c      0x15a c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_abbrev  0x00000a86      0x17f c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_abbrev  0x00000c05       0xad c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_abbrev  0x00000cb2      0x157 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_abbrev  0x00000e09       0xc4 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x00000ecd      0x1c0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_abbrev  0x0000108d      0x154 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_abbrev  0x000011e1      0x13b c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_abbrev  0x0000131c       0x6a c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+
+.debug_line     0x00000000     0x11d6
+ *(.debug_line)
+ .debug_line    0x00000000       0xa7 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_line    0x000000a7      0x2af c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_line    0x00000356      0x239 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_line    0x0000058f      0x1d5 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_line    0x00000764       0xd3 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_line    0x00000837       0xd3 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_line    0x0000090a       0xd3 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_line    0x000009dd      0x109 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_line    0x00000ae6       0x90 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_line    0x00000b76      0x133 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_line    0x00000ca9       0xa5 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_line    0x00000d4e      0x18a c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_line    0x00000ed8      0x14b c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_line    0x00001023      0x137 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_line    0x0000115a       0x7c c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+
+.debug_frame    0x00000000      0x1c0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_frame   0x00000020       0x40 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_frame   0x00000060       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_frame   0x00000080       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_frame   0x000000a0       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_frame   0x000000c0       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_frame   0x000000e0       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_frame   0x00000100       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_frame   0x00000120       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_frame   0x00000140       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_frame   0x00000160       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_frame   0x00000180       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_frame   0x000001a0       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_str      0x00000000      0x2f6
+ *(.debug_str)
+ .debug_str     0x00000000       0xbf c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                                 0xfe (size before relaxing)
+ .debug_str     0x000000bf      0x14d c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                                0x206 (size before relaxing)
+ .debug_str     0x0000020c       0x27 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                                0x1bf (size before relaxing)
+ .debug_str     0x00000233       0x35 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+                                0x1c8 (size before relaxing)
+ .debug_str     0x00000268        0x8 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x00000270        0x8 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x00000278        0x8 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x00000280        0xa c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                                0x19e (size before relaxing)
+ .debug_str     0x00000000      0x103 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_str     0x0000028a       0x21 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+                                0x177 (size before relaxing)
+ .debug_str     0x000002ab       0x20 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+                                0x111 (size before relaxing)
+ .debug_str     0x000002cb       0x10 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                                0x19d (size before relaxing)
+ .debug_str     0x000002db        0xb c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                                0x17f (size before relaxing)
+ .debug_str     0x000002e6       0x10 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                                0x163 (size before relaxing)
+ .debug_str     0x00000000       0xf4 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+
+.debug_loc      0x00000000      0x96e
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x34 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_loc     0x00000034      0x32a c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_loc     0x0000035e      0x104 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_loc     0x00000462       0xc0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_loc     0x00000522       0x3c c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_loc     0x0000055e       0x3c c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_loc     0x0000059a       0x3c c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_loc     0x000005d6       0x7e c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_loc     0x00000654       0x4c c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_loc     0x000006a0       0x94 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_loc     0x00000734      0x13e c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_loc     0x00000872       0xac c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_loc     0x0000091e       0x50 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(Drivers.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000       0x50
+ .debug_ranges  0x00000000       0x50 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
