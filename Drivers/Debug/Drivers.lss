@@ -10040,7 +10040,7 @@ _delay_ms(double __ms)
 000040f6 <LCD_voidSendString>:
 
 
-void LCD_voidSendString(u8 *String)
+void LCD_voidSendString(u8 String[])
 {
     40f6:	df 93       	push	r29
     40f8:	cf 93       	push	r28
@@ -10072,7 +10072,7 @@ void LCD_voidSendString(u8 *String)
     4124:	89 83       	std	Y+1, r24	; 0x01
 
 
-void LCD_voidSendString(u8 *String)
+void LCD_voidSendString(u8 String[])
 {
 	u8 i = 0 ;
 	while(String[i]!='\0')

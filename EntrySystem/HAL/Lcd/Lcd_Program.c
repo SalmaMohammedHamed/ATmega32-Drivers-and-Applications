@@ -5,8 +5,8 @@
  *      Author: hisha
  */
 #include <util/delay.h>
+#include "../../MCAL/DIO/DIO_Interface.h"
 #include "Lcd_Interface.h"
-
 
 void LCD_voidSendCommand(u8 command)
 {
