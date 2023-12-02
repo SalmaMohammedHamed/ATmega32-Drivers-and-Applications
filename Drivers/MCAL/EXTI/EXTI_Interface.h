@@ -11,13 +11,9 @@
 void EXTI_voidInitINT0(u8 sense);
 void EXTI_voidInitINT1(u8 sense);
 void EXTI_voidInitINT2(u8 sense);
-void EXTI0_CallBack (void (*ptr)());
-void EXTI1_CallBack (void (*ptr)());
-void EXTI2_CallBack (void (*ptr)());
-void __vector_1()   __attribute__((signal));
-void __vector_2()   __attribute__((signal));
-void __vector_3()   __attribute__((signal));
-
+void EXTI0_CallBack (void (*ptr)(void));
+void EXTI1_CallBack (void (*ptr)(void));
+void EXTI2_CallBack (void (*ptr)(void));
 
 
 

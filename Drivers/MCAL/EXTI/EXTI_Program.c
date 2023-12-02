@@ -84,27 +84,41 @@ void EXTI_voidInitINT2(u8 sense)
 	set_bit(EXTI_GICR,EXTI_INT2);
 }
 
-void EXTI0_CallBack(void (*ptr)())
+void EXTI0_CallBack (void (*ptr)(void))
 {
     EXTI0_ISR = ptr;
 }
-void __vector_1()
+void __vector_1(void)   __attribute__((signal));
+void __vector_1(void)
 {
-	EXTI0_ISR();
+	if(EXTI0_ISR!=NULL)
+	{
+		EXTI0_ISR();
+	}
 }
-void EXTI1_CallBack (void (*ptr)())
+
+void EXTI1_CallBack (void (*ptr)(void))
 {
-	EXTI1_ISR = *ptr;
+    EXTI1_ISR = ptr;
 }
-void __vector_2()
+void __vector_2(void)   __attribute__((signal));
+void __vector_2(void)
 {
-	EXTI1_ISR();
+	if(EXTI1_ISR!=NULL)
+	{
+		EXTI1_ISR();
+	}
 }
-void EXTI2_CallBack (void (*ptr)())
+void EXTI2_CallBack (void (*ptr)(void))
 {
-	EXTI2_ISR = *ptr;
+    EXTI2_ISR = ptr;
 }
-void __vector_3()
+void __vector_3(void)   __attribute__((signal));
+void __vector_3(void)
 {
-	EXTI2_ISR();
+	if(EXTI2_ISR!=NULL)
+	{
+		EXTI2_ISR();
+	}
 }
+

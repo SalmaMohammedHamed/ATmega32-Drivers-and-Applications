@@ -11,11 +11,14 @@ RM := rm -rf
 -include MCAL/UART/subdir.mk
 -include MCAL/Timers/Timer1/subdir.mk
 -include MCAL/Timers/Timer0/subdir.mk
+-include MCAL/TWI/subdir.mk
 -include MCAL/SPI/subdir.mk
 -include MCAL/GIE/subdir.mk
 -include MCAL/EXTI/subdir.mk
+-include MCAL/EEPROM_INTERNAL/subdir.mk
 -include MCAL/DIO/subdir.mk
 -include MCAL/ADC/subdir.mk
+-include HAL/TouchSensor/subdir.mk
 -include HAL/Switch/subdir.mk
 -include HAL/StepperMotor/subdir.mk
 -include HAL/Seven_Segement/subdir.mk

@@ -15,33 +15,49 @@
 #include "HAL/LDR/LDR_Interface.h"
 #include "HAL/BluetoothModule/BluetoothModule_Interface.h"
 #include <util/delay.h>
-//void led ();
+void led0 (void);
+void led1 (void);
+void led2 (void);
 
 void main()
 {
-	LM35_voidInit();
-	LCD_voidInit();
-	LDR_voidInit();
 
-u16 temp;
+	EXTI_voidInitINT0(Falling);
+	EXTI_voidInitINT1(Falling);
+	EXTI_voidInitINT2(Falling);
+	GIE_voidEnable();
+	LED_voidInit(DIO_GroupA,DIO_Pin0);
+	LED_voidInit(DIO_GroupA,DIO_Pin1);
+	LED_voidInit(DIO_GroupA,DIO_Pin2);
+	SWITCH_voidInit(DIO_GroupD,DIO_Pin2);
+	SWITCH_voidInit(DIO_GroupD,DIO_Pin3);
+	SWITCH_voidInit(DIO_GroupB,DIO_Pin2);
+
+	EXTI0_CallBack(led0);
+	EXTI1_CallBack(led1);
+	EXTI2_CallBack(led2);
 	while(1)
 	{
-		LM35_voidRead(&temp);
-		LCD_voidClear();
-		LCD_voidSendNumber(temp);
-		_delay_ms(1000);
+
 	}
 
 
 }
 
-/*void led ()
+void led0 (void)
 {
-	LED_voidOn(led0_pin);
-	}*/
+	LED_voidToggle(DIO_GroupA,DIO_Pin0);
+}
 
+void led1 (void)
+{
+	LED_voidToggle(DIO_GroupA,DIO_Pin1);
+}
 
-
+void led2 (void)
+{
+	LED_voidToggle(DIO_GroupA,DIO_Pin2);
+}
 
 
 
