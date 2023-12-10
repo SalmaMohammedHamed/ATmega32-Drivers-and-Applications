@@ -61,7 +61,7 @@ void __vector_11(void)
 
 
 /**************************************CTC*****************************************/
-void T0_voidClearTimerModeInit(u8 OC0State ,u8 Prescaller,u8 CompareValue , u8 InterruptState)
+void T0_voidCTCModeInit(u8 OC0State ,u8 Prescaller,u8 CompareValue , u8 InterruptState)
 {
 	clear_bit(T0_TCCR0,T0_TCCR0_WGM00);
 	set_bit(T0_TCCR0,T0_TCCR0_WGM01);
@@ -105,13 +105,14 @@ void T0_voidClearTimerModeInit(u8 OC0State ,u8 Prescaller,u8 CompareValue , u8 I
 }
 
 
-void T0_voidCallBackFuncClearTimerMode(void (*CTCpf)(void))
+void T0_voidCallBackFuncCTCMode(void (*CTCpf)(void))
 {
 	if (CTCpf!=NULL)
 	{
 		GlobalCTCPF=CTCpf;
 	}
 }
+
 
 
 void __vector_10(void)   __attribute__((signal));

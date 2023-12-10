@@ -17,9 +17,9 @@ void T1_voidNormalModeInit(u8 Prescaller,u8 PreloadValue,u8 InterruptState);
 void T1_voidCallBackFuncNormalMode(void (*Normalpf)(void));
 
 /*******************CTC Mode functions**************************/
-void T1_voidClearTimerModeInit(u8 Prescaller,u16 CompareValue,u8 Interruptstate,u8 OC1AState);
-void T1_voidCallBackFuncCTCModeA(void (*CTCApf)(void));
-void T1_voidCallBackFuncCTCModeB(void (*CTCBpf)(void));
+void T1_voidCTCModeInit(u8 Prescaller,u16 CompareValue,u8 Interruptstate,u8 OC1AState);
+void T1_voidCallBackFuncOCA(void (*CTCApf)(void));
+void T1_voidCallBackFuncOCB(void (*CTCBpf)(void));
 
 /*************************PWM********************************/
 void T1_voidFastPWMFixedTop(u8 Type,u8 PreScaller ,u8 PWMMode , u8 DutyCycle);
