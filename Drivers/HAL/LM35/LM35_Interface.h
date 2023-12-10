@@ -11,7 +11,7 @@
 #include "LM35_Private.h"
 #include "../../Common/STD_Types.h"
 #include "../../Common/Bit_Math.h"
-#include "../../Common/definition.h"
+
 
 void LM35_voidInit();
 void LM35_voidRead(u16 *temp);

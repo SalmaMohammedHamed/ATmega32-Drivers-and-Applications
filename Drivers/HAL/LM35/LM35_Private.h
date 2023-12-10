@@ -9,7 +9,6 @@
 #define HAL_LM35_LM35_PRIVATE_H_
 
 
-#define Polling   1
-#define Interrupt 2
+
 
 #endif /* HAL_LM35_LM35_PRIVATE_H_ */

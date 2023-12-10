@@ -34,6 +34,7 @@ HAL/Seven_Segement \
 HAL/StepperMotor \
 HAL/Switch \
 HAL/TouchSensor \
+HAL/WaterSensor \
 MCAL/ADC \
 MCAL/DIO \
 MCAL/EEPROM_INTERNAL \

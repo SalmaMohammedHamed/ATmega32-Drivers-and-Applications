@@ -10,7 +10,5 @@
 #include "../../Common/STD_Types.h"
 #include "../../MCAL/DIO/DIO_Interface.h"
 
-#define Polling   1
-#define Interrupt 2
 
 #endif /* HAL_LDR_LDR_PRIVATE_H_ */

@@ -6,6 +6,19 @@
  */
 #include "ADC_Interface.h"
 static u16 InterruptData ;  //static??
+
+void ADC_voidInit()
+{
+	ADCInformation ADCInformationSet ;
+	ADCInformationSet.AutoTriggerState=ADC_AutoTriggerState;
+	ADCInformationSet.DivisionFactor=ADC_DivisionFactor;
+	ADCInformationSet.TriggerSource=ADC_TriggerSource;
+#if ADC_Mode==Polling
+	ADC_voidInitPolling(ADCInformationSet);
+#elif
+	ADC_voidInitInterrupt(ADCInformationSet);
+#endif
+}
 void ADC_voidInitPolling(ADCInformation ADCInfo)
 {
 	/*Voltage Reference Selections*/

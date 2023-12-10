@@ -13,9 +13,9 @@
 #include "../../Common/Bit_Math.h"
 #include "../../Common/definition.h"
 
-void EEPROM_voidWriteByte( u8 Address , u8 data);
-void EEPROM_voidReadByte( u8 Address , u8* data);
-void EEPROM_voidEraseAll(void);
-void EEPROM_voidEraseByte(u8 Address);
+void IN_EEPROM_voidWriteByte( u8 Address , u8 data);
+void IN_EEPROM_voidReadByte( u8 Address , u8* data);
+void IN_EEPROM_voidEraseAll(void);
+void IN_EEPROM_voidEraseByte(u8 Address);
 
 #endif /* MCAL_EEPROM_INTERNAL_EEPROM_INTERFACE_H_ */

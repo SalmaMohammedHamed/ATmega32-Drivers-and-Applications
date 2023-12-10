@@ -9,6 +9,7 @@
 #define MCAL_ADC_ADC_INTERFACE_H_s
 #include "ADC_Private.h"
 #include "ADC_Config.h"
+void ADC_voidInit();
 void ADC_voidInitPolling(ADCInformation ADCInfo); //polling
 void ADC_voidReadResultPolling(u8 channel, u16 *Result);
 void ADC_voidInitInterrupt(ADCInformation ADCInfo);  //interrupt

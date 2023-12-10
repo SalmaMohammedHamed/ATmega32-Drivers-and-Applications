@@ -18,6 +18,7 @@ RM := rm -rf
 -include MCAL/EEPROM_INTERNAL/subdir.mk
 -include MCAL/DIO/subdir.mk
 -include MCAL/ADC/subdir.mk
+-include HAL/WaterSensor/subdir.mk
 -include HAL/TouchSensor/subdir.mk
 -include HAL/Switch/subdir.mk
 -include HAL/StepperMotor/subdir.mk

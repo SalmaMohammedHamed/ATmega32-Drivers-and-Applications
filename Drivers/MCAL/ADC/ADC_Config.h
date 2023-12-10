@@ -23,6 +23,9 @@
 #define ReferenceSelect  BothExternal
 #define DataAdjustmant   Right
 
+#define ADC_AutoTriggerState OFF
+#define ADC_TriggerSource    OFF
+#define ADC_DivisionFactor   Eight
 
-
+#define ADC_Mode Polling
 #endif /* MCAL_ADC_ADC_CONFIG_H_ */

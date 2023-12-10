@@ -13,12 +13,6 @@
 #include "../../MCAL/DIO/DIO_Interface.h"
 #define LM35Group DIO_GroupA  //make sure it is a port with adc
 #define LM35Pin  DIO_Pin3
-#define LM35Mode Polling
-
-#define LM35_ADC_AutoTriggerState OFF
-#define LM35_ADC_TriggerSource    OFF
-#define LM35_ADC_DivisionFactor   Eight
-
 
 
 

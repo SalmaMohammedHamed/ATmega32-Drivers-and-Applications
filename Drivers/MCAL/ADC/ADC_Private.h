@@ -91,5 +91,7 @@ typedef struct
 	u8 DivisionFactor;
 }ADCInformation;
 
+#define Polling   1
+#define Interrupt 2
 
 #endif /* MCAL_ADC_ADC_PRIVATE_H_ */

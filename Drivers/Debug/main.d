@@ -8,8 +8,14 @@ main.o main.o: ../main.c ../MCAL/DIO/DIO_Interface.h \
   ../MCAL/EXTI/../../Common/definition.h ../MCAL/GIE/GIE_Interface.h \
   ../MCAL/GIE/../../Common/STD_Types.h \
   ../MCAL/GIE/../../Common/Bit_Math.h \
-  ../MCAL/GIE/../../Common/definition.h ../HAL/Buzzer/Buzzer_Interface.h \
-  ../HAL/Buzzer/Buzzer_Config.h \
+  ../MCAL/GIE/../../Common/definition.h \
+  ../MCAL/EEPROM_INTERNAL/EEPROM_Interface.h \
+  ../MCAL/EEPROM_INTERNAL/EEPROM_Config.h \
+  ../MCAL/EEPROM_INTERNAL/EEPROM_Private.h \
+  ../MCAL/EEPROM_INTERNAL/../../Common/STD_Types.h \
+  ../MCAL/EEPROM_INTERNAL/../../Common/Bit_Math.h \
+  ../MCAL/EEPROM_INTERNAL/../../Common/definition.h \
+  ../HAL/Buzzer/Buzzer_Interface.h ../HAL/Buzzer/Buzzer_Config.h \
   ../HAL/Buzzer/../../MCAL/DIO/DIO_Interface.h \
   ../HAL/Buzzer/../../Common/STD_Types.h \
   ../HAL/Buzzer/../../Common/definition.h ../HAL/Led/Led_Interface.h \
@@ -23,8 +29,8 @@ main.o main.o: ../main.c ../MCAL/DIO/DIO_Interface.h \
   ../HAL/Switch/../../Common/STD_Types.h \
   ../HAL/Switch/../../Common/definition.h ../HAL/Lcd/Lcd_Interface.h \
   ../HAL/Lcd/../../Common/STD_Types.h ../HAL/Lcd/../../Common/Bit_Math.h \
-  ../HAL/Lcd/../../Common/definition.h ../HAL/Lcd/Lcd_Private.h \
-  ../HAL/Lcd/Lcd_config.h ../HAL/Lcd/../../MCAL/DIO/DIO_Interface.h \
+  ../HAL/Lcd/../../Common/definition.h ../HAL/Lcd/Lcd_config.h \
+  ../HAL/Lcd/../../MCAL/DIO/DIO_Interface.h ../HAL/Lcd/Lcd_Private.h \
   ../HAL/LM35/LM35_Interface.h ../HAL/LM35/LM35_Config.h \
   ../HAL/LM35/LM35_Private.h ../HAL/LM35/../../Common/definition.h \
   ../HAL/LM35/../../MCAL/ADC/ADC_Interface.h \
@@ -52,7 +58,16 @@ main.o main.o: ../main.c ../MCAL/DIO/DIO_Interface.h \
   ../HAL/BluetoothModule/../../MCAL/UART/UART_Config.h \
   ../HAL/BluetoothModule/../../MCAL/UART/../../Common/definition.h \
   ../HAL/BluetoothModule/../../MCAL/UART/../../Common/Bit_Math.h \
-  ../HAL/BluetoothModule/../../MCAL/DIO/DIO_Interface.h
+  ../HAL/BluetoothModule/../../MCAL/DIO/DIO_Interface.h \
+  ../HAL/WaterSensor/WaterSensor_Interface.h \
+  ../HAL/WaterSensor/../../Common/STD_Types.h \
+  ../HAL/WaterSensor/../../Common/Bit_Math.h \
+  ../HAL/WaterSensor/WaterSensor_config.h \
+  ../HAL/WaterSensor/../../Common/definition.h \
+  ../HAL/WaterSensor/../../MCAL/ADC/ADC_Interface.h \
+  ../HAL/WaterSensor/../../MCAL/ADC/ADC_Private.h \
+  ../HAL/WaterSensor/../../MCAL/ADC/ADC_Config.h \
+  ../HAL/WaterSensor/../../MCAL/DIO/DIO_Interface.h
 
 ../MCAL/DIO/DIO_Interface.h:
 
@@ -81,6 +96,18 @@ main.o main.o: ../main.c ../MCAL/DIO/DIO_Interface.h \
 ../MCAL/GIE/../../Common/Bit_Math.h:
 
 ../MCAL/GIE/../../Common/definition.h:
+
+../MCAL/EEPROM_INTERNAL/EEPROM_Interface.h:
+
+../MCAL/EEPROM_INTERNAL/EEPROM_Config.h:
+
+../MCAL/EEPROM_INTERNAL/EEPROM_Private.h:
+
+../MCAL/EEPROM_INTERNAL/../../Common/STD_Types.h:
+
+../MCAL/EEPROM_INTERNAL/../../Common/Bit_Math.h:
+
+../MCAL/EEPROM_INTERNAL/../../Common/definition.h:
 
 ../HAL/Buzzer/Buzzer_Interface.h:
 
@@ -128,11 +155,11 @@ main.o main.o: ../main.c ../MCAL/DIO/DIO_Interface.h \
 
 ../HAL/Lcd/../../Common/definition.h:
 
-../HAL/Lcd/Lcd_Private.h:
-
 ../HAL/Lcd/Lcd_config.h:
 
 ../HAL/Lcd/../../MCAL/DIO/DIO_Interface.h:
+
+../HAL/Lcd/Lcd_Private.h:
 
 ../HAL/LM35/LM35_Interface.h:
 
@@ -201,3 +228,21 @@ main.o main.o: ../main.c ../MCAL/DIO/DIO_Interface.h \
 ../HAL/BluetoothModule/../../MCAL/UART/../../Common/Bit_Math.h:
 
 ../HAL/BluetoothModule/../../MCAL/DIO/DIO_Interface.h:
+
+../HAL/WaterSensor/WaterSensor_Interface.h:
+
+../HAL/WaterSensor/../../Common/STD_Types.h:
+
+../HAL/WaterSensor/../../Common/Bit_Math.h:
+
+../HAL/WaterSensor/WaterSensor_config.h:
+
+../HAL/WaterSensor/../../Common/definition.h:
+
+../HAL/WaterSensor/../../MCAL/ADC/ADC_Interface.h:
+
+../HAL/WaterSensor/../../MCAL/ADC/ADC_Private.h:
+
+../HAL/WaterSensor/../../MCAL/ADC/ADC_Config.h:
+
+../HAL/WaterSensor/../../MCAL/DIO/DIO_Interface.h:

@@ -10,8 +10,8 @@
 #include "../../Common/STD_Types.h"
 #include "../../Common/Bit_Math.h"
 #include "../../Common/definition.h"
-#include "Lcd_Private.h"
 #include "Lcd_config.h"
+#include "Lcd_Private.h"
 
 
 void LCD_voidSendCommand(u8 command);
