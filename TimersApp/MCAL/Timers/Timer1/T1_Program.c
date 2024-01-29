@@ -12,8 +12,8 @@
 /****************************Pointers to ISR functions************************************/
 static void(*GlobalICUPf)(void)=NULL;
 static void(*GlobalOVPf)(void)=NULL;
-static void(*GlobalCTCAPf)(void)=NULL;
-static void(*GlobalCTCBPf)(void)=NULL;
+static void(*GlobalOCAPf)(void)=NULL;
+static void(*GlobalOCBPf)(void)=NULL;
 /***************************************************************************************/
 
 
@@ -69,14 +69,14 @@ void __vector_9(void)
 
 
 /********************************CTC Functions****************************************************/
-void T1_voidClearTimerModeInit(u8 Prescaller,u16 CompareValue,u8 Interruptstate,u8 OC1AState)
+void T1_voidCTCModeInit(u8 Prescaller,u16 CompareValue,u8 Interruptstate,u8 OC1AState)
 {
 	//select mode
 	clear_bit(T1_TCCR1A,T1_TCCR1A_WGM10);
 	clear_bit(T1_TCCR1A,T1_TCCR1A_WGM11);
 	set_bit(T1_TCCR1B,T1_TCCR1B_WGM12);
 	set_bit(T1_TCCR1B,T1_TCCR1B_WGM13);
-	T1_OCR1A=CompareValue;
+	T1_ICR1=CompareValue;
 	if (Interruptstate==enable)
 	{
 		set_bit(T1_TIMSK,T1_TIMSK_OCIE1A);
@@ -107,18 +107,17 @@ void T1_voidClearTimerModeInit(u8 Prescaller,u16 CompareValue,u8 Interruptstate,
 		set_bit(T1_TCCR1A,T1_TCCR1A_COM1A0);
 		set_bit(T1_TCCR1A,T1_TCCR1A_COM1A1);
 	}
-
 	Prescaller&=0x07;
 	T1_TCCR1B&=0xF8;
 	T1_TCCR1B|=Prescaller;
 }
 
 
-void T1_voidCallBackFuncCTCModeA(void (*CTCApf)(void))
+void T1_voidCallBackFuncOCA(void (*CTCApf)(void))
 {
 	if(CTCApf!=NULL)
 	{
-		GlobalCTCAPf=CTCApf;
+		GlobalOCAPf=CTCApf;
 	}
 }
 
@@ -127,18 +126,18 @@ void __vector_7(void)   __attribute__((signal));
 void __vector_7(void)
 {
 
-	if (GlobalCTCAPf!=NULL)
+	if (GlobalOCAPf!=NULL)
 	{
-		GlobalCTCAPf();
+		GlobalOCAPf();
 	}
 }
 
 
-void T1_voidCallBackFuncCTCModeB(void (*CTCBpf)(void))
+void T1_voidCallBackFuncOCB(void (*CTCBpf)(void))
 {
 	if(CTCBpf!=NULL)
 	{
-		GlobalCTCBPf=CTCBpf;
+		GlobalOCBPf=CTCBpf;
 	}
 }
 
@@ -147,9 +146,9 @@ void __vector_8(void)   __attribute__((signal));
 void __vector_8(void)
 {
 
-	if (GlobalCTCBPf!=NULL)
+	if (GlobalOCBPf!=NULL)
 	{
-		GlobalCTCBPf();
+		GlobalOCBPf();
 	}
 }
 /************************************************************************************/
