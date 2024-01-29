@@ -75,7 +75,11 @@ main.o main.o: ../main.c ../MCAL/DIO/DIO_Interface.h \
   ../MCAL/Timers/Timer0/T0_Interface.h ../MCAL/Timers/Timer0/T0_Private.h \
   ../MCAL/Timers/Timer0/../../../Common/Bit_Math.h \
   ../MCAL/Timers/Timer0/../../../Common/STD_Types.h \
-  ../MCAL/Timers/Timer0/../../../Common/definition.h
+  ../MCAL/Timers/Timer0/../../../Common/definition.h \
+  ../MCAL/Timers/Timer2/T2_interace.h ../MCAL/Timers/Timer2/T2_Private.h \
+  ../MCAL/Timers/Timer2/../../../Common/Bit_Math.h \
+  ../MCAL/Timers/Timer2/../../../Common/STD_Types.h \
+  ../MCAL/Timers/Timer2/../../../Common/definition.h
 
 ../MCAL/DIO/DIO_Interface.h:
 
@@ -274,3 +278,13 @@ main.o main.o: ../main.c ../MCAL/DIO/DIO_Interface.h \
 ../MCAL/Timers/Timer0/../../../Common/STD_Types.h:
 
 ../MCAL/Timers/Timer0/../../../Common/definition.h:
+
+../MCAL/Timers/Timer2/T2_interace.h:
+
+../MCAL/Timers/Timer2/T2_Private.h:
+
+../MCAL/Timers/Timer2/../../../Common/Bit_Math.h:
+
+../MCAL/Timers/Timer2/../../../Common/STD_Types.h:
+
+../MCAL/Timers/Timer2/../../../Common/definition.h:

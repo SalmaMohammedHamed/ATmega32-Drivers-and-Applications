@@ -44,6 +44,7 @@ MCAL/SPI \
 MCAL/TWI \
 MCAL/Timers/Timer0 \
 MCAL/Timers/Timer1 \
+MCAL/Timers/Timer2 \
 MCAL/UART \
 . \
 

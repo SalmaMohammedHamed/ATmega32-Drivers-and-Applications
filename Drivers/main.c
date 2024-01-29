@@ -18,6 +18,7 @@
 #include "HAL/WaterSensor/WaterSensor_Interface.h"
 #include "MCAL/Timers/Timer1/T1_interface.h"
 #include "MCAL/Timers/Timer0/T0_Interface.h"
+#include "MCAL/Timers/Timer2/T2_interace.h"
 #include <util/delay.h>
 
 void led1 ();
@@ -27,9 +28,10 @@ void main()
 	DIO_voidSetPinDir(DIO_GroupB,DIO_Pin3,output);
 	LED_voidInit(DIO_GroupA,DIO_Pin0);
 	LED_voidInit(DIO_GroupA,DIO_Pin1);
-	T0_voidCallBackFuncNormalMode(led1);
+	LED_voidInit(DIO_GroupD,DIO_Pin7);
+	T2_voidCallBackFuncNormalMode(led1);
 	T1_voidCallBackFuncNormalMode(led2);
-	T0_voidCTCModeInit(CTC_OC0_Tog,prescaler8,100,enable);
+	T2_voidCTCModeInit(CTC_OC0_Tog,prescaler8,100,enable);
 	//T0_voidPWMModeInit(FastPWM,PWM_OC0_nonInverting,prescaler8,50);
 	//T1_voidFastPWMFixedTop(FastPWM_8Bit,prescaler8,NonInverting,75);
 	T1_voidNormalModeInit(prescaler8,0,enable);
