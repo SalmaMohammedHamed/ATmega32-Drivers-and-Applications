@@ -4,37 +4,29 @@
  *  Created on: ???/???/????
  *      Author: Mohamed
  */
-
 #include "EEPROM_Interface.h"
+#include "../../Common/Bit_Math.h"
 
-void IN_EEPROM_voidWriteByte( u8 Address , u8 data)
+void EEPROM_Write(unsigned short address,unsigned char data)
 {
-	while(get_bit(EE_EECR,EE_EECR_EEWE));
-	while(get_bit(E_SPMCR,E_SPMCR_SPMEN));
-	EE_EEARL = Address ;
-	EE_EEDR  = data ;
+	//set up EEPROM address
+	EE_EEARL=(u8)address;
+	EE_EEARH=(u8)(address>>8);  //address is 10 bit
+	//set up data register
+	EE_EEDR=data;
+	//enable write operation
 	set_bit(EE_EECR,EE_EECR_EEMWE);
 	set_bit(EE_EECR,EE_EECR_EEWE);
+	//wait until write operation is complete
+	while(get_bit(EE_EECR,EE_EECR_EEWE)==0);
 }
-void IN_EEPROM_voidReadByte( u8 Address , u8* data)
+
+unsigned char EEPROM_Read(unsigned short address)
 {
-	while(get_bit(EE_EECR,EE_EECR_EEWE));
-	while(get_bit(E_SPMCR,E_SPMCR_SPMEN));
-	EE_EEARL = Address ;
+	//set up EEPROM address
+	EE_EEARL=(u8)address;
+	EE_EEARH=(u8)(address>>8);  //address is 10 bit
+	//enable read operation
 	set_bit(EE_EECR,EE_EECR_EERE);
-	*data = EE_EEDR ;
-}
-
-void IN_EEPROM_voidEraseAll(void)
-{
-	u16 EEPROM_Add ;
-	for(EEPROM_Add = 0 ; EEPROM_Add < Max_Array ; EEPROM_Add++)
-	{
-		IN_EEPROM_voidWriteByte( EEPROM_Add , 0x00 );
-	}
-}
-
-void IN_EEPROM_voidEraseByte(u8 Address)
-{
-	IN_EEPROM_voidWriteByte( Address , 0x00 );
+	return EE_EEDR;
 }

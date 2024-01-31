@@ -76,7 +76,7 @@ LOAD ./MCAL/UART/UART_Program.o
 LOAD ./MCAL/Timers/Timer2/T2_Program.o
 LOAD ./MCAL/Timers/Timer1/T1_Program.o
 LOAD ./MCAL/Timers/Timer0/T0_Program.o
-LOAD ./MCAL/TWI/TWI_Program.o
+LOAD ./MCAL/TWI/twi.o
 LOAD ./MCAL/SPI/SPI_Program.o
 LOAD ./MCAL/GIE/GIE_Program.o
 LOAD ./MCAL/EXTI/EXTI_Program.o
@@ -95,6 +95,7 @@ LOAD ./HAL/LM35/LM35_Program.o
 LOAD ./HAL/LDR/LDR_Program.o
 LOAD ./HAL/Keypad/Keypad_Program.o
 LOAD ./HAL/GasSensor/GasSensor_Program.o
+LOAD ./HAL/EEPROM_EXTERNAL/external_eeprom.o
 LOAD ./HAL/DCMotor/DCMotor_Program.o
 LOAD ./HAL/Buzzer/Buzzer_Program.o
 LOAD ./HAL/BluetoothModule/BluetoothModule_Program.o
@@ -193,7 +194,7 @@ LOAD c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-2023071
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x57f2
+.text           0x00000000     0x5794
  *(.vectors)
  .vectors       0x00000000       0x54 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
                 0x00000000                __vectors
@@ -262,7 +263,7 @@ LOAD c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-2023071
  .text          0x00000092        0x0 ./MCAL/Timers/Timer2/T2_Program.o
  .text          0x00000092        0x0 ./MCAL/Timers/Timer1/T1_Program.o
  .text          0x00000092        0x0 ./MCAL/Timers/Timer0/T0_Program.o
- .text          0x00000092        0x0 ./MCAL/TWI/TWI_Program.o
+ .text          0x00000092        0x0 ./MCAL/TWI/twi.o
  .text          0x00000092        0x0 ./MCAL/SPI/SPI_Program.o
  .text          0x00000092        0x0 ./MCAL/GIE/GIE_Program.o
  .text          0x00000092        0x0 ./MCAL/EXTI/EXTI_Program.o
@@ -281,6 +282,7 @@ LOAD c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-2023071
  .text          0x00000092        0x0 ./HAL/LDR/LDR_Program.o
  .text          0x00000092        0x0 ./HAL/Keypad/Keypad_Program.o
  .text          0x00000092        0x0 ./HAL/GasSensor/GasSensor_Program.o
+ .text          0x00000092        0x0 ./HAL/EEPROM_EXTERNAL/external_eeprom.o
  .text          0x00000092        0x0 ./HAL/DCMotor/DCMotor_Program.o
  .text          0x00000092        0x0 ./HAL/Buzzer/Buzzer_Program.o
  .text          0x00000092        0x0 ./HAL/BluetoothModule/BluetoothModule_Program.o
@@ -422,302 +424,292 @@ LOAD c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-2023071
  .text.T0_voidPWMModeInit
                 0x00002188      0x250 ./MCAL/Timers/Timer0/T0_Program.o
                 0x00002188                T0_voidPWMModeInit
- .text.TWI_voidMasterInit
-                0x000023d8       0x60 ./MCAL/TWI/TWI_Program.o
-                0x000023d8                TWI_voidMasterInit
- .text.TWI_voidSlaveInit
-                0x00002438       0x3e ./MCAL/TWI/TWI_Program.o
-                0x00002438                TWI_voidSlaveInit
- .text.TWI_voidStartCondition
-                0x00002476       0x34 ./MCAL/TWI/TWI_Program.o
-                0x00002476                TWI_voidStartCondition
- .text.TWI_voidRestartCondition
-                0x000024aa        0xe ./MCAL/TWI/TWI_Program.o
-                0x000024aa                TWI_voidRestartCondition
- .text.TWI_voidStopCondition
-                0x000024b8        0xe ./MCAL/TWI/TWI_Program.o
-                0x000024b8                TWI_voidStopCondition
- .text.TWI_voidSendSlAWithWrite
-                0x000024c6       0x14 ./MCAL/TWI/TWI_Program.o
-                0x000024c6                TWI_voidSendSlAWithWrite
- .text.TWI_voidSendSlAWithRead
-                0x000024da       0x14 ./MCAL/TWI/TWI_Program.o
-                0x000024da                TWI_voidSendSlAWithRead
- .text.TWI_voidWriteDataByte
-                0x000024ee       0x14 ./MCAL/TWI/TWI_Program.o
-                0x000024ee                TWI_voidWriteDataByte
- .text.TWI_voidReadDataByte
-                0x00002502       0x18 ./MCAL/TWI/TWI_Program.o
-                0x00002502                TWI_voidReadDataByte
+ .text.TWI_init
+                0x000023d8       0x40 ./MCAL/TWI/twi.o
+                0x000023d8                TWI_init
+ .text.TWI_start
+                0x00002418       0x20 ./MCAL/TWI/twi.o
+                0x00002418                TWI_start
+ .text.TWI_stop
+                0x00002438       0x16 ./MCAL/TWI/twi.o
+                0x00002438                TWI_stop
+ .text.TWI_writeByte
+                0x0000244e       0x2e ./MCAL/TWI/twi.o
+                0x0000244e                TWI_writeByte
+ .text.TWI_readByteWithACK
+                0x0000247c       0x26 ./MCAL/TWI/twi.o
+                0x0000247c                TWI_readByteWithACK
+ .text.TWI_readByteWithNACK
+                0x000024a2       0x26 ./MCAL/TWI/twi.o
+                0x000024a2                TWI_readByteWithNACK
+ .text.TWI_getStatus
+                0x000024c8       0x1e ./MCAL/TWI/twi.o
+                0x000024c8                TWI_getStatus
  .text.SPI_voidinit
-                0x0000251a       0x8c ./MCAL/SPI/SPI_Program.o
-                0x0000251a                SPI_voidinit
+                0x000024e6       0x8c ./MCAL/SPI/SPI_Program.o
+                0x000024e6                SPI_voidinit
  .text.SPI_u8sendReceiveByte
-                0x000025a6       0x2c ./MCAL/SPI/SPI_Program.o
-                0x000025a6                SPI_u8sendReceiveByte
+                0x00002572       0x2c ./MCAL/SPI/SPI_Program.o
+                0x00002572                SPI_u8sendReceiveByte
  .text.SPI_voidsendString
-                0x000025d2       0x58 ./MCAL/SPI/SPI_Program.o
-                0x000025d2                SPI_voidsendString
+                0x0000259e       0x58 ./MCAL/SPI/SPI_Program.o
+                0x0000259e                SPI_voidsendString
  .text.SPI_voidreceiveString
-                0x0000262a       0x8a ./MCAL/SPI/SPI_Program.o
-                0x0000262a                SPI_voidreceiveString
+                0x000025f6       0x8a ./MCAL/SPI/SPI_Program.o
+                0x000025f6                SPI_voidreceiveString
  .text.GIE_voidEnable
-                0x000026b4       0x1c ./MCAL/GIE/GIE_Program.o
-                0x000026b4                GIE_voidEnable
+                0x00002680       0x1c ./MCAL/GIE/GIE_Program.o
+                0x00002680                GIE_voidEnable
  .text.GIE_voidDisable
-                0x000026d0       0x1c ./MCAL/GIE/GIE_Program.o
-                0x000026d0                GIE_voidDisable
+                0x0000269c       0x1c ./MCAL/GIE/GIE_Program.o
+                0x0000269c                GIE_voidDisable
  .text.EXTI_voidInitINT0
-                0x000026ec       0xb0 ./MCAL/EXTI/EXTI_Program.o
-                0x000026ec                EXTI_voidInitINT0
+                0x000026b8       0xb0 ./MCAL/EXTI/EXTI_Program.o
+                0x000026b8                EXTI_voidInitINT0
  .text.EXTI_voidInitINT1
-                0x0000279c       0xb0 ./MCAL/EXTI/EXTI_Program.o
-                0x0000279c                EXTI_voidInitINT1
+                0x00002768       0xb0 ./MCAL/EXTI/EXTI_Program.o
+                0x00002768                EXTI_voidInitINT1
  .text.EXTI_voidInitINT2
-                0x0000284c       0x4c ./MCAL/EXTI/EXTI_Program.o
-                0x0000284c                EXTI_voidInitINT2
+                0x00002818       0x4c ./MCAL/EXTI/EXTI_Program.o
+                0x00002818                EXTI_voidInitINT2
  .text.EXTI0_CallBack
-                0x00002898       0x24 ./MCAL/EXTI/EXTI_Program.o
-                0x00002898                EXTI0_CallBack
+                0x00002864       0x24 ./MCAL/EXTI/EXTI_Program.o
+                0x00002864                EXTI0_CallBack
  .text.__vector_1
-                0x000028bc       0x66 ./MCAL/EXTI/EXTI_Program.o
-                0x000028bc                __vector_1
+                0x00002888       0x66 ./MCAL/EXTI/EXTI_Program.o
+                0x00002888                __vector_1
  .text.EXTI1_CallBack
-                0x00002922       0x24 ./MCAL/EXTI/EXTI_Program.o
-                0x00002922                EXTI1_CallBack
+                0x000028ee       0x24 ./MCAL/EXTI/EXTI_Program.o
+                0x000028ee                EXTI1_CallBack
  .text.__vector_2
-                0x00002946       0x66 ./MCAL/EXTI/EXTI_Program.o
-                0x00002946                __vector_2
+                0x00002912       0x66 ./MCAL/EXTI/EXTI_Program.o
+                0x00002912                __vector_2
  .text.EXTI2_CallBack
-                0x000029ac       0x24 ./MCAL/EXTI/EXTI_Program.o
-                0x000029ac                EXTI2_CallBack
+                0x00002978       0x24 ./MCAL/EXTI/EXTI_Program.o
+                0x00002978                EXTI2_CallBack
  .text.__vector_3
-                0x000029d0       0x66 ./MCAL/EXTI/EXTI_Program.o
-                0x000029d0                __vector_3
- .text.IN_EEPROM_voidWriteByte
-                0x00002a36       0x6a ./MCAL/EEPROM_INTERNAL/EEPROM_Program.o
-                0x00002a36                IN_EEPROM_voidWriteByte
- .text.IN_EEPROM_voidReadByte
-                0x00002aa0       0x66 ./MCAL/EEPROM_INTERNAL/EEPROM_Program.o
-                0x00002aa0                IN_EEPROM_voidReadByte
- .text.IN_EEPROM_voidEraseAll
-                0x00002b06       0x38 ./MCAL/EEPROM_INTERNAL/EEPROM_Program.o
-                0x00002b06                IN_EEPROM_voidEraseAll
- .text.IN_EEPROM_voidEraseByte
-                0x00002b3e       0x1c ./MCAL/EEPROM_INTERNAL/EEPROM_Program.o
-                0x00002b3e                IN_EEPROM_voidEraseByte
+                0x0000299c       0x66 ./MCAL/EXTI/EXTI_Program.o
+                0x0000299c                __vector_3
+ .text.EEPROM_Write
+                0x00002a02       0x6c ./MCAL/EEPROM_INTERNAL/EEPROM_Program.o
+                0x00002a02                EEPROM_Write
+ .text.EEPROM_Read
+                0x00002a6e       0x42 ./MCAL/EEPROM_INTERNAL/EEPROM_Program.o
+                0x00002a6e                EEPROM_Read
  .text.DIO_voidSetPinDir
-                0x00002b5a      0x21c ./MCAL/DIO/DIO_Program.o
-                0x00002b5a                DIO_voidSetPinDir
+                0x00002ab0      0x21c ./MCAL/DIO/DIO_Program.o
+                0x00002ab0                DIO_voidSetPinDir
  .text.DIO_voidSetPinValue
-                0x00002d76      0x21c ./MCAL/DIO/DIO_Program.o
-                0x00002d76                DIO_voidSetPinValue
+                0x00002ccc      0x21c ./MCAL/DIO/DIO_Program.o
+                0x00002ccc                DIO_voidSetPinValue
  .text.DIO_u8ReadPinValue
-                0x00002f92      0x2ec ./MCAL/DIO/DIO_Program.o
-                0x00002f92                DIO_u8ReadPinValue
+                0x00002ee8      0x2ec ./MCAL/DIO/DIO_Program.o
+                0x00002ee8                DIO_u8ReadPinValue
  .text.DIO_voidSetPortDir
-                0x0000327e       0x90 ./MCAL/DIO/DIO_Program.o
-                0x0000327e                DIO_voidSetPortDir
+                0x000031d4       0x90 ./MCAL/DIO/DIO_Program.o
+                0x000031d4                DIO_voidSetPortDir
  .text.DIO_voidSetPortValue
-                0x0000330e       0x90 ./MCAL/DIO/DIO_Program.o
-                0x0000330e                DIO_voidSetPortValue
+                0x00003264       0x90 ./MCAL/DIO/DIO_Program.o
+                0x00003264                DIO_voidSetPortValue
  .text.DIO_U8ReadPortValue
-                0x0000339e       0x96 ./MCAL/DIO/DIO_Program.o
-                0x0000339e                DIO_U8ReadPortValue
+                0x000032f4       0x96 ./MCAL/DIO/DIO_Program.o
+                0x000032f4                DIO_U8ReadPortValue
  .text.DIO_voidControlPullupPin
-                0x00003434       0x32 ./MCAL/DIO/DIO_Program.o
-                0x00003434                DIO_voidControlPullupPin
+                0x0000338a       0x32 ./MCAL/DIO/DIO_Program.o
+                0x0000338a                DIO_voidControlPullupPin
  .text.ADC_voidInit
-                0x00003466       0x2a ./MCAL/ADC/ADC_Program.o
-                0x00003466                ADC_voidInit
+                0x000033bc       0x2a ./MCAL/ADC/ADC_Program.o
+                0x000033bc                ADC_voidInit
  .text.ADC_voidInitPolling
-                0x00003490       0xd6 ./MCAL/ADC/ADC_Program.o
-                0x00003490                ADC_voidInitPolling
+                0x000033e6       0xd6 ./MCAL/ADC/ADC_Program.o
+                0x000033e6                ADC_voidInitPolling
  .text.ADC_voidReadResultPolling
-                0x00003566       0x84 ./MCAL/ADC/ADC_Program.o
-                0x00003566                ADC_voidReadResultPolling
+                0x000034bc       0x84 ./MCAL/ADC/ADC_Program.o
+                0x000034bc                ADC_voidReadResultPolling
  .text.ADC_voidInitInterrupt
-                0x000035ea       0xde ./MCAL/ADC/ADC_Program.o
-                0x000035ea                ADC_voidInitInterrupt
+                0x00003540       0xde ./MCAL/ADC/ADC_Program.o
+                0x00003540                ADC_voidInitInterrupt
  .text.ADC_voidReadResultInterrupt
-                0x000036c8       0x46 ./MCAL/ADC/ADC_Program.o
-                0x000036c8                ADC_voidReadResultInterrupt
+                0x0000361e       0x46 ./MCAL/ADC/ADC_Program.o
+                0x0000361e                ADC_voidReadResultInterrupt
  .text.__vector_16
-                0x0000370e       0x40 ./MCAL/ADC/ADC_Program.o
-                0x0000370e                __vector_16
+                0x00003664       0x40 ./MCAL/ADC/ADC_Program.o
+                0x00003664                __vector_16
  .text.WaterSensor_voidInit
-                0x0000374e       0x18 ./HAL/WaterSensor/WaterSensor_Program.o
-                0x0000374e                WaterSensor_voidInit
+                0x000036a4       0x18 ./HAL/WaterSensor/WaterSensor_Program.o
+                0x000036a4                WaterSensor_voidInit
  .text.WaterSensor_voidRead
-                0x00003766       0xa2 ./HAL/WaterSensor/WaterSensor_Program.o
-                0x00003766                WaterSensor_voidRead
+                0x000036bc       0xa2 ./HAL/WaterSensor/WaterSensor_Program.o
+                0x000036bc                WaterSensor_voidRead
  .text.TouchSensor_voidInit
-                0x00003808       0x22 ./HAL/TouchSensor/TouchSensor_Program.o
-                0x00003808                TouchSensor_voidInit
+                0x0000375e       0x22 ./HAL/TouchSensor/TouchSensor_Program.o
+                0x0000375e                TouchSensor_voidInit
  .text.TouchSensor_u8GetValue
-                0x0000382a       0x28 ./HAL/TouchSensor/TouchSensor_Program.o
-                0x0000382a                TouchSensor_u8GetValue
+                0x00003780       0x28 ./HAL/TouchSensor/TouchSensor_Program.o
+                0x00003780                TouchSensor_u8GetValue
  .text.SWITCH_voidInit
-                0x00003852       0x2c ./HAL/Switch/Switch_Program.o
-                0x00003852                SWITCH_voidInit
+                0x000037a8       0x2c ./HAL/Switch/Switch_Program.o
+                0x000037a8                SWITCH_voidInit
  .text.SWITCH_u8GetValue
-                0x0000387e       0x20 ./HAL/Switch/Switch_Program.o
-                0x0000387e                SWITCH_u8GetValue
+                0x000037d4       0x20 ./HAL/Switch/Switch_Program.o
+                0x000037d4                SWITCH_u8GetValue
  .text.STEPPER_voidInit
-                0x0000389e       0x36 ./HAL/StepperMotor/Stepper_Program.o
-                0x0000389e                STEPPER_voidInit
+                0x000037f4       0x36 ./HAL/StepperMotor/Stepper_Program.o
+                0x000037f4                STEPPER_voidInit
  .text.STEPPER_voidCW
-                0x000038d4      0x4f0 ./HAL/StepperMotor/Stepper_Program.o
-                0x000038d4                STEPPER_voidCW
+                0x0000382a      0x4f0 ./HAL/StepperMotor/Stepper_Program.o
+                0x0000382a                STEPPER_voidCW
  .text.STEPPER_voidACW
-                0x00003dc4      0x4cc ./HAL/StepperMotor/Stepper_Program.o
-                0x00003dc4                STEPPER_voidACW
+                0x00003d1a      0x4cc ./HAL/StepperMotor/Stepper_Program.o
+                0x00003d1a                STEPPER_voidACW
  .text.SEVSEG_voidInit
-                0x00004290       0x2e ./HAL/Seven_Segement/SevenSeg_Program.o
-                0x00004290                SEVSEG_voidInit
+                0x000041e6       0x2e ./HAL/Seven_Segement/SevenSeg_Program.o
+                0x000041e6                SEVSEG_voidInit
  .text.SEVSEG_voidSetNum
-                0x000042be       0x9e ./HAL/Seven_Segement/SevenSeg_Program.o
-                0x000042be                SEVSEG_voidSetNum
+                0x00004214       0x9e ./HAL/Seven_Segement/SevenSeg_Program.o
+                0x00004214                SEVSEG_voidSetNum
  .text.SEVSEG_voidOff
-                0x0000435c       0x1e ./HAL/Seven_Segement/SevenSeg_Program.o
-                0x0000435c                SEVSEG_voidOff
+                0x000042b2       0x1e ./HAL/Seven_Segement/SevenSeg_Program.o
+                0x000042b2                SEVSEG_voidOff
  .text.ServoMotor_voidInit
-                0x0000437a       0x1c ./HAL/ServoMotor/ServoMotor_Program.o
-                0x0000437a                ServoMotor_voidInit
+                0x000042d0       0x1c ./HAL/ServoMotor/ServoMotor_Program.o
+                0x000042d0                ServoMotor_voidInit
  .text.ServoMotor_voidSetAngle
-                0x00004396       0x84 ./HAL/ServoMotor/ServoMotor_Program.o
-                0x00004396                ServoMotor_voidSetAngle
+                0x000042ec       0x84 ./HAL/ServoMotor/ServoMotor_Program.o
+                0x000042ec                ServoMotor_voidSetAngle
  .text.ServoMotor_voidClockWiseSlow
-                0x0000441a      0x1fe ./HAL/ServoMotor/ServoMotor_Program.o
-                0x0000441a                ServoMotor_voidClockWiseSlow
+                0x00004370      0x1fe ./HAL/ServoMotor/ServoMotor_Program.o
+                0x00004370                ServoMotor_voidClockWiseSlow
  .text.ServoMotor_voidAntiClockWiseSlow
-                0x00004618      0x1fe ./HAL/ServoMotor/ServoMotor_Program.o
-                0x00004618                ServoMotor_voidAntiClockWiseSlow
+                0x0000456e      0x1fe ./HAL/ServoMotor/ServoMotor_Program.o
+                0x0000456e                ServoMotor_voidAntiClockWiseSlow
  .text.LED_voidInit
-                0x00004816       0x22 ./HAL/Led/Led_Programe.o
-                0x00004816                LED_voidInit
+                0x0000476c       0x22 ./HAL/Led/Led_Programe.o
+                0x0000476c                LED_voidInit
  .text.LED_voidOn
-                0x00004838       0x22 ./HAL/Led/Led_Programe.o
-                0x00004838                LED_voidOn
+                0x0000478e       0x22 ./HAL/Led/Led_Programe.o
+                0x0000478e                LED_voidOn
  .text.LED_voidOff
-                0x0000485a       0x22 ./HAL/Led/Led_Programe.o
-                0x0000485a                LED_voidOff
+                0x000047b0       0x22 ./HAL/Led/Led_Programe.o
+                0x000047b0                LED_voidOff
  .text.LED_voidToggle
-                0x0000487c       0x36 ./HAL/Led/Led_Programe.o
-                0x0000487c                LED_voidToggle
+                0x000047d2       0x36 ./HAL/Led/Led_Programe.o
+                0x000047d2                LED_voidToggle
  .text.LCD_voidSendCommand
-                0x000048b2       0x44 ./HAL/Lcd/Lcd_Program.o
-                0x000048b2                LCD_voidSendCommand
+                0x00004808       0x44 ./HAL/Lcd/Lcd_Program.o
+                0x00004808                LCD_voidSendCommand
  .text.LCD_voidSendData
-                0x000048f6       0x44 ./HAL/Lcd/Lcd_Program.o
-                0x000048f6                LCD_voidSendData
+                0x0000484c       0x44 ./HAL/Lcd/Lcd_Program.o
+                0x0000484c                LCD_voidSendData
  .text.LCD_voidInit
-                0x0000493a      0x3f4 ./HAL/Lcd/Lcd_Program.o
-                0x0000493a                LCD_voidInit
+                0x00004890      0x3f4 ./HAL/Lcd/Lcd_Program.o
+                0x00004890                LCD_voidInit
  .text.LCD_voidSendString
-                0x00004d2e       0x52 ./HAL/Lcd/Lcd_Program.o
-                0x00004d2e                LCD_voidSendString
+                0x00004c84       0x52 ./HAL/Lcd/Lcd_Program.o
+                0x00004c84                LCD_voidSendString
  .text.LCD_voidSetPos
-                0x00004d80       0x3c ./HAL/Lcd/Lcd_Program.o
-                0x00004d80                LCD_voidSetPos
+                0x00004cd6       0x3c ./HAL/Lcd/Lcd_Program.o
+                0x00004cd6                LCD_voidSetPos
  .text.LCD_voidSpecialCharacter
-                0x00004dbc       0x80 ./HAL/Lcd/Lcd_Program.o
-                0x00004dbc                LCD_voidSpecialCharacter
+                0x00004d12       0x80 ./HAL/Lcd/Lcd_Program.o
+                0x00004d12                LCD_voidSpecialCharacter
  .text.LCD_voidClear
-                0x00004e3c      0x110 ./HAL/Lcd/Lcd_Program.o
-                0x00004e3c                LCD_voidClear
+                0x00004d92      0x110 ./HAL/Lcd/Lcd_Program.o
+                0x00004d92                LCD_voidClear
  .text.LCD_voidSendNumber
-                0x00004f4c      0x15a ./HAL/Lcd/Lcd_Program.o
-                0x00004f4c                LCD_voidSendNumber
+                0x00004ea2      0x15a ./HAL/Lcd/Lcd_Program.o
+                0x00004ea2                LCD_voidSendNumber
  .text.LM35_voidInit
-                0x000050a6       0x18 ./HAL/LM35/LM35_Program.o
-                0x000050a6                LM35_voidInit
+                0x00004ffc       0x18 ./HAL/LM35/LM35_Program.o
+                0x00004ffc                LM35_voidInit
  .text.LM35_voidRead
-                0x000050be       0xa2 ./HAL/LM35/LM35_Program.o
-                0x000050be                LM35_voidRead
+                0x00005014       0xa2 ./HAL/LM35/LM35_Program.o
+                0x00005014                LM35_voidRead
  .text.LDR_voidInit
-                0x00005160       0x34 ./HAL/LDR/LDR_Program.o
-                0x00005160                LDR_voidInit
+                0x000050b6       0x34 ./HAL/LDR/LDR_Program.o
+                0x000050b6                LDR_voidInit
  .text.LDR_voidRead
-                0x00005194       0x60 ./HAL/LDR/LDR_Program.o
-                0x00005194                LDR_voidRead
+                0x000050ea       0x60 ./HAL/LDR/LDR_Program.o
+                0x000050ea                LDR_voidRead
  .text.KEYPAD_voidInit
-                0x000051f4       0x1e ./HAL/Keypad/Keypad_Program.o
-                0x000051f4                KEYPAD_voidInit
+                0x0000514a       0x1e ./HAL/Keypad/Keypad_Program.o
+                0x0000514a                KEYPAD_voidInit
  .text.KEYPAD_u8GetValue1
-                0x00005212       0x98 ./HAL/Keypad/Keypad_Program.o
-                0x00005212                KEYPAD_u8GetValue1
+                0x00005168       0x98 ./HAL/Keypad/Keypad_Program.o
+                0x00005168                KEYPAD_u8GetValue1
  .text.KEYPAD_charGetValue2
-                0x000052aa       0xa6 ./HAL/Keypad/Keypad_Program.o
-                0x000052aa                KEYPAD_charGetValue2
+                0x00005200       0xa6 ./HAL/Keypad/Keypad_Program.o
+                0x00005200                KEYPAD_charGetValue2
  .text.GasSensor_voidAnalogInit
-                0x00005350       0x34 ./HAL/GasSensor/GasSensor_Program.o
-                0x00005350                GasSensor_voidAnalogInit
+                0x000052a6       0x34 ./HAL/GasSensor/GasSensor_Program.o
+                0x000052a6                GasSensor_voidAnalogInit
  .text.GasSensor_voidDigitalInit
-                0x00005384       0x18 ./HAL/GasSensor/GasSensor_Program.o
-                0x00005384                GasSensor_voidDigitalInit
+                0x000052da       0x18 ./HAL/GasSensor/GasSensor_Program.o
+                0x000052da                GasSensor_voidDigitalInit
  .text.GasSensor_f32ReadAnalog
-                0x0000539c       0x18 ./HAL/GasSensor/GasSensor_Program.o
-                0x0000539c                GasSensor_f32ReadAnalog
+                0x000052f2       0x18 ./HAL/GasSensor/GasSensor_Program.o
+                0x000052f2                GasSensor_f32ReadAnalog
  .text.GasSensor_u8DigitalState
-                0x000053b4       0x16 ./HAL/GasSensor/GasSensor_Program.o
-                0x000053b4                GasSensor_u8DigitalState
+                0x0000530a       0x16 ./HAL/GasSensor/GasSensor_Program.o
+                0x0000530a                GasSensor_u8DigitalState
+ .text.EEPROM_writeByte
+                0x00005320       0x82 ./HAL/EEPROM_EXTERNAL/external_eeprom.o
+                0x00005320                EEPROM_writeByte
+ .text.EEPROM_readByte
+                0x000053a2       0xc0 ./HAL/EEPROM_EXTERNAL/external_eeprom.o
+                0x000053a2                EEPROM_readByte
  .text.DCMotor_voidInit
-                0x000053ca       0x36 ./HAL/DCMotor/DCMotor_Program.o
-                0x000053ca                DCMotor_voidInit
+                0x00005462       0x36 ./HAL/DCMotor/DCMotor_Program.o
+                0x00005462                DCMotor_voidInit
  .text.DCMotor_voidOnMaxSpeed
-                0x00005400       0x72 ./HAL/DCMotor/DCMotor_Program.o
-                0x00005400                DCMotor_voidOnMaxSpeed
+                0x00005498       0x72 ./HAL/DCMotor/DCMotor_Program.o
+                0x00005498                DCMotor_voidOnMaxSpeed
  .text.DCMotor_voidOff
-                0x00005472       0x36 ./HAL/DCMotor/DCMotor_Program.o
-                0x00005472                DCMotor_voidOff
+                0x0000550a       0x36 ./HAL/DCMotor/DCMotor_Program.o
+                0x0000550a                DCMotor_voidOff
  .text.BUZZER_voidInit
-                0x000054a8       0x18 ./HAL/Buzzer/Buzzer_Program.o
-                0x000054a8                BUZZER_voidInit
+                0x00005540       0x18 ./HAL/Buzzer/Buzzer_Program.o
+                0x00005540                BUZZER_voidInit
  .text.BUZZER_voidOn
-                0x000054c0       0x18 ./HAL/Buzzer/Buzzer_Program.o
-                0x000054c0                BUZZER_voidOn
+                0x00005558       0x18 ./HAL/Buzzer/Buzzer_Program.o
+                0x00005558                BUZZER_voidOn
  .text.BUZZER_voidOff
-                0x000054d8       0x18 ./HAL/Buzzer/Buzzer_Program.o
-                0x000054d8                BUZZER_voidOff
+                0x00005570       0x18 ./HAL/Buzzer/Buzzer_Program.o
+                0x00005570                BUZZER_voidOff
  .text.BUZZER_voidToggle
-                0x000054f0       0x24 ./HAL/Buzzer/Buzzer_Program.o
-                0x000054f0                BUZZER_voidToggle
+                0x00005588       0x24 ./HAL/Buzzer/Buzzer_Program.o
+                0x00005588                BUZZER_voidToggle
  .text.BluetoothModule_voidInit
-                0x00005514       0x2e ./HAL/BluetoothModule/BluetoothModule_Program.o
-                0x00005514                BluetoothModule_voidInit
+                0x000055ac       0x2e ./HAL/BluetoothModule/BluetoothModule_Program.o
+                0x000055ac                BluetoothModule_voidInit
  .text.BluetoothModule_u8RecieveData
-                0x00005542       0x12 ./HAL/BluetoothModule/BluetoothModule_Program.o
-                0x00005542                BluetoothModule_u8RecieveData
- .text.main     0x00005554       0x56 ./main.o
-                0x00005554                main
- .text.led1     0x000055aa       0x68 ./main.o
-                0x000055aa                led1
- .text.led2     0x00005612       0x68 ./main.o
-                0x00005612                led2
- .text.libgcc   0x0000567a       0x3e c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
-                0x0000567a                __mulsi3
- .text.libgcc   0x000056b8       0x28 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
-                0x000056b8                __udivmodhi4
- .text.libgcc   0x000056e0       0x26 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
-                0x000056e0                __divmodhi4
-                0x000056e0                _div
- .text.libgcc   0x00005706       0x44 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
-                0x00005706                __udivmodsi4
- .text.libgcc   0x0000574a       0x36 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
-                0x0000574a                __divmodsi4
- .text.libgcc   0x00005780        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
- .text.libgcc   0x00005780        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
- .text.libgcc   0x00005780        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
- .text.libgcc   0x00005780       0x38 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
-                0x00005780                __prologue_saves__
- .text.libgcc   0x000057b8       0x36 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
-                0x000057b8                __epilogue_restores__
-                0x000057ee                . = ALIGN (0x2)
+                0x000055da       0x12 ./HAL/BluetoothModule/BluetoothModule_Program.o
+                0x000055da                BluetoothModule_u8RecieveData
+ .text.main     0x000055ec       0x30 ./main.o
+                0x000055ec                main
+ .text.libgcc   0x0000561c       0x3e c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                0x0000561c                __mulsi3
+ .text.libgcc   0x0000565a       0x28 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                0x0000565a                __udivmodhi4
+ .text.libgcc   0x00005682       0x26 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+                0x00005682                __divmodhi4
+                0x00005682                _div
+ .text.libgcc   0x000056a8       0x44 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                0x000056a8                __udivmodsi4
+ .text.libgcc   0x000056ec       0x36 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+                0x000056ec                __divmodsi4
+ .text.libgcc   0x00005722        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00005722        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00005722        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00005722       0x38 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                0x00005722                __prologue_saves__
+ .text.libgcc   0x0000575a       0x36 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                0x0000575a                __epilogue_restores__
+                0x00005790                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x000057ee        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
-                0x000057ee                exit
-                0x000057ee                _exit
+ .fini9         0x00005790        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x00005790                exit
+                0x00005790                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -736,11 +728,11 @@ LOAD c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-2023071
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x000057ee        0x4 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .fini0         0x00005790        0x4 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x000057f2                _etext = .
+                0x00005794                _etext = .
 
-.data           0x00800060      0x132 load address 0x000057f2
+.data           0x00800060      0x132 load address 0x00005794
                 0x00800060                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800060        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
@@ -748,7 +740,7 @@ LOAD c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-2023071
  .data          0x00800060        0x0 ./MCAL/Timers/Timer2/T2_Program.o
  .data          0x00800060        0x0 ./MCAL/Timers/Timer1/T1_Program.o
  .data          0x00800060        0x0 ./MCAL/Timers/Timer0/T0_Program.o
- .data          0x00800060        0x0 ./MCAL/TWI/TWI_Program.o
+ .data          0x00800060        0x0 ./MCAL/TWI/twi.o
  .data          0x00800060        0x0 ./MCAL/SPI/SPI_Program.o
  .data          0x00800060        0x0 ./MCAL/GIE/GIE_Program.o
  .data          0x00800060        0x0 ./MCAL/EXTI/EXTI_Program.o
@@ -767,6 +759,7 @@ LOAD c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-2023071
  .data          0x00800060        0x0 ./HAL/LDR/LDR_Program.o
  .data          0x00800060        0x0 ./HAL/Keypad/Keypad_Program.o
  .data          0x00800060        0x0 ./HAL/GasSensor/GasSensor_Program.o
+ .data          0x00800060        0x0 ./HAL/EEPROM_EXTERNAL/external_eeprom.o
  .data          0x00800060        0x0 ./HAL/DCMotor/DCMotor_Program.o
  .data          0x00800060        0x0 ./HAL/Buzzer/Buzzer_Program.o
  .data          0x00800060        0x0 ./HAL/BluetoothModule/BluetoothModule_Program.o
@@ -815,7 +808,7 @@ LOAD c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-2023071
                 0x00800192                _edata = .
                 0x00800192                PROVIDE (__data_end, .)
 
-.bss            0x00800192       0x20
+.bss            0x00800192       0x18
                 0x00800192                PROVIDE (__bss_start, .)
  *(.bss)
  .bss           0x00800192        0x0 c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-20230714t090256z-001/01- imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
@@ -823,7 +816,7 @@ LOAD c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-2023071
  .bss           0x00800192        0x0 ./MCAL/Timers/Timer2/T2_Program.o
  .bss           0x00800192        0x0 ./MCAL/Timers/Timer1/T1_Program.o
  .bss           0x00800192        0x0 ./MCAL/Timers/Timer0/T0_Program.o
- .bss           0x00800192        0x0 ./MCAL/TWI/TWI_Program.o
+ .bss           0x00800192        0x0 ./MCAL/TWI/twi.o
  .bss           0x00800192        0x0 ./MCAL/SPI/SPI_Program.o
  .bss           0x00800192        0x0 ./MCAL/GIE/GIE_Program.o
  .bss           0x00800192        0x0 ./MCAL/EXTI/EXTI_Program.o
@@ -842,6 +835,7 @@ LOAD c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-2023071
  .bss           0x00800192        0x0 ./HAL/LDR/LDR_Program.o
  .bss           0x00800192        0x0 ./HAL/Keypad/Keypad_Program.o
  .bss           0x00800192        0x0 ./HAL/GasSensor/GasSensor_Program.o
+ .bss           0x00800192        0x0 ./HAL/EEPROM_EXTERNAL/external_eeprom.o
  .bss           0x00800192        0x0 ./HAL/DCMotor/DCMotor_Program.o
  .bss           0x00800192        0x0 ./HAL/Buzzer/Buzzer_Program.o
  .bss           0x00800192        0x0 ./HAL/BluetoothModule/BluetoothModule_Program.o
@@ -890,25 +884,21 @@ LOAD c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-2023071
                 0x008001a0        0x2 ./MCAL/Timers/Timer0/T0_Program.o
  .bss.InterruptData
                 0x008001a2        0x2 ./MCAL/ADC/ADC_Program.o
- .bss.couter.1528
-                0x008001a4        0x4 ./main.o
- .bss.couter2.1538
-                0x008001a8        0x4 ./main.o
  *(COMMON)
- COMMON         0x008001ac        0x6 ./MCAL/EXTI/EXTI_Program.o
-                0x008001ac                EXTI2_ISR
-                0x008001ae                EXTI1_ISR
-                0x008001b0                EXTI0_ISR
-                0x008001b2                PROVIDE (__bss_end, .)
-                0x000057f2                __data_load_start = LOADADDR (.data)
-                0x00005924                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x008001a4        0x6 ./MCAL/EXTI/EXTI_Program.o
+                0x008001a4                EXTI2_ISR
+                0x008001a6                EXTI1_ISR
+                0x008001a8                EXTI0_ISR
+                0x008001aa                PROVIDE (__bss_end, .)
+                0x00005794                __data_load_start = LOADADDR (.data)
+                0x000058c6                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x008001b2        0x0
-                0x008001b2                PROVIDE (__noinit_start, .)
+.noinit         0x008001aa        0x0
+                0x008001aa                PROVIDE (__noinit_start, .)
  *(.noinit*)
-                0x008001b2                PROVIDE (__noinit_end, .)
-                0x008001b2                _end = .
-                0x008001b2                PROVIDE (__heap_start, .)
+                0x008001aa                PROVIDE (__noinit_end, .)
+                0x008001aa                _end = .
+                0x008001aa                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
  *(.eeprom*)
@@ -926,7 +916,7 @@ LOAD c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-2023071
 .signature
  *(.signature*)
 
-.stab           0x00000000     0x8cdc
+.stab           0x00000000     0x8ee0
  *(.stab)
  .stab          0x00000000      0x450 ./MCAL/UART/UART_Program.o
  .stab          0x00000450      0x768 ./MCAL/Timers/Timer2/T2_Program.o
@@ -935,56 +925,58 @@ LOAD c:/users/salma/onedrive/desktop/embedded_systems/zipped/01- imt sdk-2023071
                                 0xc90 (size before relaxing)
  .stab          0x0000183c      0x750 ./MCAL/Timers/Timer0/T0_Program.o
                                 0x75c (size before relaxing)
- .stab          0x00001f8c      0x4bc ./MCAL/TWI/TWI_Program.o
-                                0x4c8 (size before relaxing)
- .stab          0x00002448      0x45c ./MCAL/SPI/SPI_Program.o
-                                0x468 (size before relaxing)
- .stab          0x000028a4      0x2a0 ./MCAL/GIE/GIE_Program.o
-                                0x2ac (size before relaxing)
- .stab          0x00002b44      0x5e8 ./MCAL/EXTI/EXTI_Program.o
-                                0x5f4 (size before relaxing)
- .stab          0x0000312c      0x3fc ./MCAL/EEPROM_INTERNAL/EEPROM_Program.o
-                                0x408 (size before relaxing)
- .stab          0x00003528      0x72c ./MCAL/DIO/DIO_Program.o
-                                0x738 (size before relaxing)
- .stab          0x00003c54      0x5f4 ./MCAL/ADC/ADC_Program.o
-                                0x600 (size before relaxing)
- .stab          0x00004248      0x330 ./HAL/WaterSensor/WaterSensor_Program.o
-                                0x33c (size before relaxing)
- .stab          0x00004578      0x330 ./HAL/TouchSensor/TouchSensor_Program.o
-                                0x33c (size before relaxing)
- .stab          0x000048a8      0x30c ./HAL/Switch/Switch_Program.o
-                                0x318 (size before relaxing)
- .stab          0x00004bb4      0xccc ./HAL/StepperMotor/Stepper_Program.o
-                                0xcd8 (size before relaxing)
- .stab          0x00005880      0x3c0 ./HAL/Seven_Segement/SevenSeg_Program.o
-                                0x3cc (size before relaxing)
- .stab          0x00005c40      0x654 ./HAL/ServoMotor/ServoMotor_Program.o
-                                0x7ec (size before relaxing)
- .stab          0x00006294      0x3cc ./HAL/Led/Led_Programe.o
-                                0x564 (size before relaxing)
- .stab          0x00006660      0xae0 ./HAL/Lcd/Lcd_Program.o
-                                0xc78 (size before relaxing)
- .stab          0x00007140      0x354 ./HAL/LM35/LM35_Program.o
-                                0x4ec (size before relaxing)
- .stab          0x00007494      0x378 ./HAL/LDR/LDR_Program.o
-                                0x384 (size before relaxing)
- .stab          0x0000780c      0x450 ./HAL/Keypad/Keypad_Program.o
+ .stab          0x00001f8c      0x450 ./MCAL/TWI/twi.o
                                 0x45c (size before relaxing)
- .stab          0x00007c5c      0x3c0 ./HAL/GasSensor/GasSensor_Program.o
+ .stab          0x000023dc      0x45c ./MCAL/SPI/SPI_Program.o
+                                0x468 (size before relaxing)
+ .stab          0x00002838      0x2a0 ./MCAL/GIE/GIE_Program.o
+                                0x2ac (size before relaxing)
+ .stab          0x00002ad8      0x5e8 ./MCAL/EXTI/EXTI_Program.o
+                                0x5f4 (size before relaxing)
+ .stab          0x000030c0      0x30c ./MCAL/EEPROM_INTERNAL/EEPROM_Program.o
+                                0x318 (size before relaxing)
+ .stab          0x000033cc      0x72c ./MCAL/DIO/DIO_Program.o
+                                0x738 (size before relaxing)
+ .stab          0x00003af8      0x5f4 ./MCAL/ADC/ADC_Program.o
+                                0x600 (size before relaxing)
+ .stab          0x000040ec      0x330 ./HAL/WaterSensor/WaterSensor_Program.o
+                                0x33c (size before relaxing)
+ .stab          0x0000441c      0x330 ./HAL/TouchSensor/TouchSensor_Program.o
+                                0x33c (size before relaxing)
+ .stab          0x0000474c      0x30c ./HAL/Switch/Switch_Program.o
+                                0x318 (size before relaxing)
+ .stab          0x00004a58      0xccc ./HAL/StepperMotor/Stepper_Program.o
+                                0xcd8 (size before relaxing)
+ .stab          0x00005724      0x3c0 ./HAL/Seven_Segement/SevenSeg_Program.o
                                 0x3cc (size before relaxing)
- .stab          0x0000801c      0x3c0 ./HAL/DCMotor/DCMotor_Program.o
+ .stab          0x00005ae4      0x654 ./HAL/ServoMotor/ServoMotor_Program.o
+                                0x7ec (size before relaxing)
+ .stab          0x00006138      0x3cc ./HAL/Led/Led_Programe.o
+                                0x564 (size before relaxing)
+ .stab          0x00006504      0xae0 ./HAL/Lcd/Lcd_Program.o
+                                0xc78 (size before relaxing)
+ .stab          0x00006fe4      0x354 ./HAL/LM35/LM35_Program.o
+                                0x4ec (size before relaxing)
+ .stab          0x00007338      0x378 ./HAL/LDR/LDR_Program.o
+                                0x384 (size before relaxing)
+ .stab          0x000076b0      0x450 ./HAL/Keypad/Keypad_Program.o
+                                0x45c (size before relaxing)
+ .stab          0x00007b00      0x3c0 ./HAL/GasSensor/GasSensor_Program.o
                                 0x3cc (size before relaxing)
- .stab          0x000083dc      0x36c ./HAL/Buzzer/Buzzer_Program.o
+ .stab          0x00007ec0      0x468 ./HAL/EEPROM_EXTERNAL/external_eeprom.o
+                                0x474 (size before relaxing)
+ .stab          0x00008328      0x3c0 ./HAL/DCMotor/DCMotor_Program.o
+                                0x3cc (size before relaxing)
+ .stab          0x000086e8      0x36c ./HAL/Buzzer/Buzzer_Program.o
                                 0x504 (size before relaxing)
- .stab          0x00008748      0x2b8 ./HAL/BluetoothModule/BluetoothModule_Program.o
+ .stab          0x00008a54      0x2b8 ./HAL/BluetoothModule/BluetoothModule_Program.o
                                 0x2c4 (size before relaxing)
- .stab          0x00008a00      0x2dc ./main.o
-                                0x63c (size before relaxing)
+ .stab          0x00008d0c      0x1d4 ./main.o
+                                0x4bc (size before relaxing)
 
-.stabstr        0x00000000     0x3fe1
+.stabstr        0x00000000     0x40b2
  *(.stabstr)
- .stabstr       0x00000000     0x3fe1 ./MCAL/UART/UART_Program.o
+ .stabstr       0x00000000     0x40b2 ./MCAL/UART/UART_Program.o
 
 .stab.excl
  *(.stab.excl)

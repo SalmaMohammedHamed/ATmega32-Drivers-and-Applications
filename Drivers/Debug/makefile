@@ -31,6 +31,7 @@ RM := rm -rf
 -include HAL/LDR/subdir.mk
 -include HAL/Keypad/subdir.mk
 -include HAL/GasSensor/subdir.mk
+-include HAL/EEPROM_EXTERNAL/subdir.mk
 -include HAL/DCMotor/subdir.mk
 -include HAL/Buzzer/subdir.mk
 -include HAL/BluetoothModule/subdir.mk

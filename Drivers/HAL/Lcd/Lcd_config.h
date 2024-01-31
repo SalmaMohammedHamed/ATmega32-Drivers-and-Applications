@@ -12,7 +12,7 @@
 #define Lcd_RsPin				DIO_Pin0
 #define Lcd_RwPin				DIO_Pin1
 #define Lcd_EPin				DIO_Pin2
-#define Lcd_DCGroup             DIO_GroupC
+#define Lcd_DCGroup             DIO_GroupD
 #define LcdMode                 8
 #if(LcdMode==4)
 #define Lcd_D4 DIO_Pin4

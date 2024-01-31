@@ -7,15 +7,9 @@
 
 #ifndef MCAL_EEPROM_INTERNAL_EEPROM_INTERFACE_H_
 #define MCAL_EEPROM_INTERNAL_EEPROM_INTERFACE_H_
-
-#include "EEPROM_Config.h"
 #include "EEPROM_Private.h"
-#include "../../Common/Bit_Math.h"
-#include "../../Common/definition.h"
-
-void IN_EEPROM_voidWriteByte( u8 Address , u8 data);
-void IN_EEPROM_voidReadByte( u8 Address , u8* data);
-void IN_EEPROM_voidEraseAll(void);
-void IN_EEPROM_voidEraseByte(u8 Address);
+#include "../../Common/STD_Types.h"
+void EEPROM_Write(u16 address,u8 data);
+unsigned char EEPROM_Read(u16 address);
 
 #endif /* MCAL_EEPROM_INTERNAL_EEPROM_INTERFACE_H_ */

@@ -23,6 +23,7 @@ SUBDIRS := \
 HAL/BluetoothModule \
 HAL/Buzzer \
 HAL/DCMotor \
+HAL/EEPROM_EXTERNAL \
 HAL/GasSensor \
 HAL/Keypad \
 HAL/LDR \
