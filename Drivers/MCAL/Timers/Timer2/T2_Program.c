@@ -6,6 +6,7 @@
  */
 
 #include "T2_interace.h"
+#include "../../../Common/definition.h"
 
 /****************************Pointers to ISR functions************************************/
 static void (*GlobalOVPF)(void)=NULL;//-> Global Pointer to Function Normal mode
@@ -128,69 +129,63 @@ void __vector_4(void)
 void T2_voidPWMModeInit(u8 PWMType, u8 OC2State ,u8 Prescaller, u8 DutyCycle)
 {
 	if (PWMType==FastPWM)
-	{
-		//fast PWM
-		set_bit(T2_TCCR2,T2_TCCR2_WGM20);
-		set_bit(T2_TCCR2,T2_TCCR2_WGM21);
-		//OC2 State
-			if(OC2State==CTC_OC2_Disconnect)
-			{//disconnect  pin OC0
+		{
+			//fast PWM
+			set_bit(T2_TCCR2,T2_TCCR2_WGM20);
+			set_bit(T2_TCCR2,T2_TCCR2_WGM21);
+			if (OC2State==PWM_OC2_Disconnect)
+			{
+				//disconnect  pin OC0
 				clear_bit(T2_TCCR2,T2_TCCR2_COM20);
 				clear_bit(T2_TCCR2,T2_TCCR2_COM21);
 			}
-			else if (OC2State==CTC_OC2_Tog)
-			{	//Tog Pin OC0
-				set_bit(T2_TCCR2,T2_TCCR2_COM20);
-				clear_bit(T2_TCCR2,T2_TCCR2_COM21);
-			}
-			else if (OC2State==CTC_OC2_CLr)
+			else if (OC2State==PWM_OC2_nonInverting)
 			{
-				//clr Pin OC0
+				//non-inverting mode
 				clear_bit(T2_TCCR2,T2_TCCR2_COM20);
 				set_bit(T2_TCCR2,T2_TCCR2_COM21);
+				T2_OCR2=(255*DutyCycle)/100;
 			}
-			else if (OC2State==CTC_OC2_Set)
+			else if (OC2State==PWM_OC2_Inverting)
 			{
-				//set Pin OC0
+				//inverting mode
 				set_bit(T2_TCCR2,T2_TCCR2_COM20);
 				set_bit(T2_TCCR2,T2_TCCR2_COM21);
-			}
-
-
-		//Prescaller
-		Prescaller&=0x07;
-		T2_TCCR2&=0xF8;
-		T2_TCCR2|=Prescaller;
-	}
-	else if (PWMType==PhaseCorrectPWM)
-	{
-		//OC2 State
-			if(OC2State==CTC_OC2_Disconnect)
-			{//disconnect  pin OC0
-				clear_bit(T2_TCCR2,T2_TCCR2_COM20);
-				clear_bit(T2_TCCR2,T2_TCCR2_COM21);
-			}
-			else if (OC2State==CTC_OC2_Tog)
-			{	//Tog Pin OC0
-				set_bit(T2_TCCR2,T2_TCCR2_COM20);
-				clear_bit(T2_TCCR2,T2_TCCR2_COM21);
-			}
-			else if (OC2State==CTC_OC2_CLr)
-			{
-				//clr Pin OC0
-				clear_bit(T2_TCCR2,T2_TCCR2_COM20);
-				set_bit(T2_TCCR2,T2_TCCR2_COM21);
-			}
-			else if (OC2State==CTC_OC2_Set)
-			{
-				//set Pin OC0
-				set_bit(T2_TCCR2,T2_TCCR2_COM20);
-				set_bit(T2_TCCR2,T2_TCCR2_COM21);
+				T2_OCR2=255*((1-DutyCycle)/100);
 			}
 
 			//Prescaller
 			Prescaller&=0x07;
 			T2_TCCR2&=0xF8;
 			T2_TCCR2|=Prescaller;
-	}
+		}
+		else if (PWMType==PhaseCorrectPWM)
+		{
+			if (OC2State==PWM_OC2_Disconnect)
+				{
+					//disconnect  pin OC0
+					clear_bit(T2_TCCR2,T2_TCCR2_COM20);
+					clear_bit(T2_TCCR2,T2_TCCR2_COM21);
+				}
+			else if (OC2State==PWM_OC2_nonInverting)
+				{
+				//non-inverting mode
+				clear_bit(T2_TCCR2,T2_TCCR2_COM20);
+				set_bit(T2_TCCR2,T2_TCCR2_COM21);
+				T2_OCR2=(255*DutyCycle)/100;
+				}
+			else if (OC2State==PWM_OC2_Inverting)
+			{
+				//inverting mode
+				set_bit(T2_TCCR2,T2_TCCR2_COM20);
+				set_bit(T2_TCCR2,T2_TCCR2_COM21);
+				T2_OCR2=255*((1-DutyCycle)/100);
+			}
+
+			//Prescaller
+			Prescaller&=0x07;
+			T2_TCCR2&=0xF8;
+			T2_TCCR2|=Prescaller;
+		}
+
 }
