@@ -16,10 +16,8 @@
 void UART_voidInit(u32 BoudRate);
 void UART_voidSendData(u8 Data);
 u8 UART_u8RecieveData();
-/*ISR*/
-void __vector_13()   __attribute__((signal));
-void __vector_14()   __attribute__((signal));
-void __vector_15()   __attribute__((signal));
+u8 UART_u8RecieveDataInt();
+void UART_voidCallBack(void (*UARTPF)(void));
 
 
 

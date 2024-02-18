@@ -16,9 +16,7 @@
 
 #include "../../Common/Bit_Math.h"
 #include "../../Common/STD_Types.h"
-#include "../../Common/definition.h"
 #include "SPI_Private.h"
-#include "SPI_Config.h"
 
 /*******************************************************************************
  *                                Definitions                                  *
@@ -37,26 +35,34 @@
  * Description :
  * Initialize the SPI device as Master.
  */
-void SPI_voidinit(void);
+void SPI_initMaster(void); 
 
+/*
+ * Description :
+ * Initialize the SPI device as Slave.
+ */
+void SPI_initSlave(void);
 
 /*
  * Description :
  * Send the required data through SPI to the other SPI device.
  * In the same time data will be received from the other device.
  */
-u8 SPI_u8sendReceiveByte(u8 data);
+u8 SPI_sendReceiveByte(u8 data);
 
 /*
  * Description :
  * Send the required string through SPI to the other SPI device.
  */
-void SPI_voidsendString(const u8 *str);
+void SPI_sendString(const u8 *str);
 
 /*
  * Description :
  * Receive the required string until the '#' symbol through SPI from the other SPI device.
  */
-void SPI_voidreceiveString(u8 *str);
+void SPI_receiveString(u8 *str);
+
+void SPI_voidCallBack(void (*SPII)(void));
+u8 SPI_u8RecieveInt();
 
 #endif

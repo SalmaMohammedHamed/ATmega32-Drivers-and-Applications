@@ -9,7 +9,7 @@
 #define MCAL_UART_UART_CONFIG_H_
 #include "../../Common/definition.h"
 #define TXIEState  disable
-#define RXIEState  disable
+#define RXIEState  enable
 #define UDIEState  disable
 
 #define ParityEnable  enable

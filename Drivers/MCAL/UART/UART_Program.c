@@ -6,14 +6,15 @@
  */
 
 #include "UART_Interface.h"
-
+static void(*GlobalIUARTF)(void)=NULL;
+#include <util/delay.h>
 void UART_voidInit(u32 BoudRate)
 {
 	/*Set boud rate*/
 	clear_bit(UART_UBRRH,UBRRH_URSEL);
 	UART_UBRRH=0;
 	UART_UBRRL=BoudRate;
-
+	set_bit(UART_UCSRB,UCSRB_RXEN);
 	/*Interrupts*/
 #if TXIEState==disable
 	clear_bit(UART_UCSRB,UCSRB_TXCIE);
@@ -97,13 +98,35 @@ void UART_voidSendData(u8 Data)
 
 u8 UART_u8RecieveData()
 {
+	set_bit(UART_UCSRA,UCSRA_RXC);
 	u8 RecievedData;
 	while (get_bit(UART_UCSRA,UCSRA_UDRE)==Full);
 	set_bit(UART_UCSRA,UCSRA_UDRE);
 	set_bit(UART_UCSRB,UCSRB_RXEN);
 	while (get_bit(UART_UCSRA,UCSRA_RXC)==Low);
-	set_bit(UART_UCSRA,UCSRA_RXC);
 	RecievedData=UART_UDR;
 	return RecievedData;
 }
+u8 UART_u8RecieveDataInt()
+{
+	return UART_UDR;
+}
+void UART_voidCallBack(void (*UARTPF)(void))
+{
 
+	if(UARTPF!=NULL)
+	{
+		GlobalIUARTF=UARTPF;
+	}
+}
+
+void __vector_13(void)   __attribute__((signal));
+void __vector_13(void)
+{
+
+	if (GlobalIUARTF!=NULL)
+	{
+		GlobalIUARTF();
+	}
+
+}

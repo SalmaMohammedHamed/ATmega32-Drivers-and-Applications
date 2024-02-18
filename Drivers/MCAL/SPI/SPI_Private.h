@@ -28,28 +28,5 @@
 #define SPSR_SPI2X 0
 
 
-#define DataorderLSB 1
-#define DataorderMSB 2
-
-#define Master 1
-#define Slave  2
-
-#define Rising 1
-#define Falling 1
-
-#define RxTx 1
-#define TxRx 2
-
-#define F4   1
-#define F16  2
-#define F64  3
-#define F128 4
-#define F2   5
-#define F8   6
-#define F32  7
-
-#define SPI_DefualtValue 0xFF
-
-
 
 #endif /* MCAL_SPI_SPI_PRIVATE_H_ */

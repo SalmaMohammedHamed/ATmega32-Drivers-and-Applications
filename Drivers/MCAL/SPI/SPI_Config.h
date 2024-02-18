@@ -7,7 +7,8 @@
 
 #ifndef MCAL_SPI_SPI_CONFIG_H_
 #define MCAL_SPI_SPI_CONFIG_H_
-#define SPI_InterrptE disable
+#include "../../Common/definition.h"
+#define SPI_InterrptE enable
 #define SPI_DataOrder DataorderMSB
 #define SPI_State     Master
 #define SPI_ClkPolarity Rising
